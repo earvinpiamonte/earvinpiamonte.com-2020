@@ -5,6 +5,25 @@
  */
 
 module.exports = {
-  /* Your site config here */
-  plugins: ["gatsby-plugin-postcss"],
+  siteMetadata: {
+    title: `Noel Earvin Piamonte`,
+    siteURL: `https://earvinpiamonte.com`,
+    description: `Website and React Native Developer from Baguio City, Philippines.`,
+    author: `@earvinpiamonte`,
+  },
+  plugins: [
+    `gatsby-plugin-postcss`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `earvinpiamonte`,
+        short_name: `earvinpiamonte`,
+        start_url: `/`,
+        background_color: `#111`,
+        theme_color: `#111`,
+        display: `minimal-ui`,
+        icon: `src/images/profile.jpg`, // This path is relative to the root of the site.
+      },
+    },
+  ],
 }
