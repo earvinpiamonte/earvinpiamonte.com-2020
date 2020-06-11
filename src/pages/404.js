@@ -12,7 +12,7 @@ export default function PageNotFound() {
           <img
             src={jennie}
             className="object-contain h-50"
-            alt="Jennie Kim <3"
+            alt="Jennie Kim my loves <3"
           />
         </div>
         <p className="text-2xl text-white">Page not found {":("}</p>
