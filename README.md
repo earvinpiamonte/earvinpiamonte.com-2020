@@ -2,6 +2,8 @@
 
 Welcome to the repo of my [website](https://earvinpiamonte.com/).
 
+[![Gryffin - If I Left The World feat. MARINA & Model Child](http://img.youtube.com/vi/u7KuZISOwrw/0.jpg)](https://www.youtube.com/watch?v=u7KuZISOwrw "Gryffin - If I Left The World feat. MARINA & Model Child")
+
 ## Built with
 
 - [Gatsby](https://www.gatsbyjs.org/)
