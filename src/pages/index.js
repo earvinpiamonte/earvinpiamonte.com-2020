@@ -8,7 +8,6 @@ import "../styles/app.css"
 
 if (process.env.NODE_ENV !== "development") {
   ReactGA.initialize("UA-50697157-1")
-  ReactGA.pageview(window.location.pathname + window.location.search)
 }
 
 export default function Home() {
