@@ -1,6 +1,15 @@
 import React from "react"
 
+import ReactGA from "react-ga"
+
 import "../styles/app.css"
+
+// UA-50697157-1
+
+if (process.env.NODE_ENV !== "development") {
+  ReactGA.initialize("UA-50697157-1")
+  ReactGA.pageview(window.location.pathname + window.location.search)
+}
 
 export default function Home() {
   return (
