@@ -7,7 +7,7 @@ Welcome to the repo of my [website](https://earvinpiamonte.com/).
 ## Built with
 
 - [Gatsby](https://www.gatsbyjs.org/)
-- [TailwindCSS](https://tailwindcss.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
 
 ## Deployment
 
