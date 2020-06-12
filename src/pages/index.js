@@ -2,8 +2,6 @@ import React from "react"
 
 import ReactGA from "react-ga"
 
-import "../styles/app.css"
-
 // UA-50697157-1
 
 if (process.env.NODE_ENV !== "development") {
