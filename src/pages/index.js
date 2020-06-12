@@ -21,7 +21,7 @@ export default function Home() {
             </h1>
             <div className="mb-10 text-lg tracking-wider">
               <p className="mb-1 text-gray-200">
-                Hi there, I&apos;m an independent website and React Native
+                Hi there, I&apos;m an independent website and React Native app
                 developer at{" "}
                 <a
                   href="https://www.freelancer.com/u/earvinpiamonte/"
