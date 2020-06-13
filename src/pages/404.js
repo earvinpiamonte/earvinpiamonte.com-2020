@@ -1,5 +1,7 @@
 import React from "react"
 
+import { Link } from "gatsby"
+
 import "../styles/app.css"
 
 import jennie from "../images/jennie-sigh.gif"
@@ -15,7 +17,12 @@ export default function PageNotFound() {
             alt="Jennie Kim my loves <3"
           />
         </div>
-        <p className="text-2xl text-white">Page not found {":("}</p>
+        <p className="text-2xl text-white mb-4">Page not found {":("}</p>
+        <p className="text-gray-500">
+          <Link to="/" className="font-weight-bold underline">
+            <small>Go to home page</small>
+          </Link>
+        </p>
       </div>
     </div>
   )
