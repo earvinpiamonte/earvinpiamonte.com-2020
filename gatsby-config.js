@@ -7,9 +7,15 @@
 module.exports = {
   siteMetadata: {
     title: `Noel Earvin Piamonte`,
-    siteURL: `https://earvinpiamonte.com`,
-    description: `Website and React Native Developer from Baguio City, Philippines.`,
-    author: `@earvinpiamonte`,
+    siteUrl: `https://earvinpiamonte.com`,
+    description: `Website and React Native app developer from Baguio and Mandaluyong City, Philippines.`,
+    author: `Noel Earvin Piamonte`,
+    keywords: [
+      `developer`,
+      `freelancer`,
+      `react native app`,
+      `freelancer philippines`,
+    ],
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
