@@ -2,7 +2,7 @@
 
 Welcome to the repo of my [website](https://earvinpiamonte.com/).
 
-[![Gryffin - If I Left The World feat. MARINA & Model Child](http://img.youtube.com/vi/u7KuZISOwrw/0.jpg)](https://www.youtube.com/watch?v=u7KuZISOwrw "Gryffin - If I Left The World feat. MARINA & Model Child")
+[![ILLENIUM - Good Things Fall Apart vs. Sad Songs](https://img.youtube.com/vi/uODuvT8m2-o/0.jpg)](https://www.youtube.com/watch?v=uODuvT8m2-o "ILLENIUM - Good Things Fall Apart vs. Sad Songs")
 
 ## Built with
 
