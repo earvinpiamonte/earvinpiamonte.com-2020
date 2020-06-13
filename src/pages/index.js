@@ -1,13 +1,5 @@
 import React from "react"
 
-import ReactGA from "react-ga"
-
-// UA-50697157-1
-
-if (process.env.NODE_ENV !== "development") {
-  ReactGA.initialize("UA-50697157-1")
-}
-
 export default function Home() {
   return (
     <section className="bg-black h-full">
