@@ -2,3 +2,8 @@
   from = "https://earvinpiamonte.netlify.app/*"
   to = "https://earvinpiamonte.com/:splat"
   force = true
+
+[[redirects]]
+  from = "/np"
+  to = "https://www.youtube.com/watch?v=uODuvT8m2-o"
+  force = true
