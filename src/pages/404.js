@@ -2,7 +2,7 @@ import React from "react"
 
 import { Link } from "gatsby"
 
-import SEO from "../components/SEO"
+import SEO from "../components/seo"
 
 import "../styles/app.css"
 import jennieGIF from "../images/jennie-sigh.gif"

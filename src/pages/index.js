@@ -2,7 +2,7 @@ import React from "react"
 
 import { OutboundLink } from "gatsby-plugin-google-analytics"
 
-import SEO from "../components/SEO"
+import SEO from "../components/seo"
 
 import socialPreview from "../images/social-preview.jpg"
 
