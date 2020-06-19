@@ -17,6 +17,36 @@ This project deploys to [Netlify](https://netlify.com).
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/fa829363-30c4-4cb3-b7ee-07347a80fbdc/deploy-status)](https://app.netlify.com/sites/earvinpiamonte/deploys)
 
+## Try it
+
+Clone:
+
+```
+git clone https://github.com/earvinpiamonte/earvinpiamonte.com.git
+```
+
+```
+cd earvinpiamonte.com/
+```
+
+Install packages:
+
+```
+npm i
+```
+
+Run development server:
+
+```
+gatsby develop
+```
+
+Build for production:
+
+```
+gatsby build
+```
+
 ## Contact
 
 Found an issue or have some recommendations? Send me a good ol' email at [earvin.piamonte@gmail.com](mailto:earvin.piamonte@gmail.com).
