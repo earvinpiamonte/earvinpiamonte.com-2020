@@ -8,7 +8,7 @@ module.exports = {
   siteMetadata: {
     title: `Noel Earvin Piamonte`,
     siteUrl: `https://earvinpiamonte.com`,
-    description: `Website and React Native app developer from Baguio and Mandaluyong City, Philippines.`,
+    description: `Website and React Native app developer from Mandaluyong City, Philippines.`,
     author: `Noel Earvin Piamonte`,
     keywords: [
       `developer`,
