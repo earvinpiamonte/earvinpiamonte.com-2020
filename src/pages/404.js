@@ -6,11 +6,19 @@ import SEO from "../components/seo"
 
 import "../styles/app.css"
 import jennieGIF from "../images/jennie-sigh.gif"
+import pageNotFoundPreview from "../images/404-preview.jpg"
 
 const PageNotFound = () => {
   return (
     <>
-      <SEO title={`Page not found`} />
+      <SEO
+        title={`Page not found`}
+        image={{
+          src: pageNotFoundPreview,
+          width: 470,
+          height: 270,
+        }}
+      />
       <div className="flex items-center bg-black h-full">
         <div className="flex-1 text-center">
           <div className="flex justify-center mb-4">
