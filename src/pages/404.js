@@ -12,7 +12,7 @@ const PageNotFound = () => {
   return (
     <>
       <SEO
-        title={`Page not found`}
+        title={`Page not found but Jennie`}
         image={{
           src: pageNotFoundPreview,
           width: 470,
