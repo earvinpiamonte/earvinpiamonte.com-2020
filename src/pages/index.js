@@ -20,7 +20,7 @@ const Home = () => {
       <section className="bg-gray-900 h-full">
         <div className="container mx-auto px-4 h-full">
           <div className="grid grid-cols-12 gap-4 content-center h-full">
-            <div className="col-span-8 col-start-3">
+            <div className="col-span-12 md:col-span-8 md:col-start-3">
               <h1 className="text-3xl mb-4 text-gray-200 tracking-wider uppercase">
                 Noel Earvin Piamonte &middot; Software Developer
               </h1>

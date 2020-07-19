@@ -16,7 +16,7 @@ const Portfolio = () => {
       <header className="bg-gray-900 mb-8">
         <div className="container mx-auto">
           <div className="grid grid-cols-12 gap-4">
-            <div className="col-span-8 col-start-3">
+            <div className="col-span-12 md:col-span-8 md:col-start-3">
               <nav className="flex items-center justify-between flex-wrap p-6">
                 <div className="flex items-center flex-shrink-0 text-white mr-12">
                   <span className="font-semibold text-xl tracking-tight">
@@ -57,7 +57,7 @@ const Portfolio = () => {
       </header>
       <main className="container mx-auto">
         <div className="grid grid-cols-12 gap-4">
-          <div className="col-span-8 col-start-3 px-6">
+          <div className="col-span-12 md:col-span-8 md:col-start-3 px-6">
             <h1 className="text-4xl text-gray-900 mb-10">Portfolio</h1>
 
             <article className="mb-8 border rounded-lg p-4">
