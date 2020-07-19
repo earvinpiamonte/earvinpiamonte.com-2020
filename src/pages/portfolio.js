@@ -7,7 +7,7 @@ import { Link } from "gatsby"
 import SEO from "../components/seo"
 
 import "../styles/app.css"
-import jennieGIF from "../images/jennie-sigh.gif"
+import sampleProjectThumbnail from "../images/social-preview.jpg"
 
 const Portfolio = () => {
   return (
@@ -55,13 +55,52 @@ const Portfolio = () => {
           </div>
         </div>
       </header>
-      <div className="container mx-auto">
+      <main className="container mx-auto">
         <div className="grid grid-cols-12 gap-4">
           <div className="col-span-8 col-start-3 px-6">
-            <h1 className="text-4xl text-gray-900">Portfolio</h1>
+            <h1 className="text-4xl text-gray-900 mb-10">Portfolio</h1>
+
+            <article className="mb-8 border rounded-lg p-4">
+              <div className="grid grid-cols-12 gap-4">
+                <div className="lg:col-span-5 col-span-12">
+                  <div>
+                    <img
+                      src={sampleProjectThumbnail}
+                      alt="Project thumbnail,"
+                      className="rounded border"
+                      draggable={false}
+                    />
+                  </div>
+                </div>
+                <div className="lg:col-span-7 col-span-12">
+                  <h2 className="mb-1 uppercase text-gray-900 font-bold">
+                    <Link to="portfolio" className="hover:underline">
+                      Project title here
+                    </Link>
+                  </h2>
+                  <p className="mb-3 text-gray-600">Laravel, Bootstrap</p>
+
+                  <p className="mb-3 text-gray-800">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ipsa recusandae quibusdam corrupti quod illum corporis fugit
+                    libero. Naneun gongjuwa salang-e ppajyeossda.
+                  </p>
+                  <p className="mb-3">
+                    <OutboundLink
+                      href="javascript:"
+                      className="text-blue-500 underline font-bold"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      View site
+                    </OutboundLink>
+                  </p>
+                </div>
+              </div>
+            </article>
           </div>
         </div>
-      </div>
+      </main>
     </>
   )
 }
