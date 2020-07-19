@@ -38,6 +38,20 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `contents`,
+        path: `${__dirname}/src/contents`,
+      },
+    },
+    {
+      resolve: "gatsby-plugin-page-creator",
+      options: {
+        path: `${__dirname}/src/contents`,
+      },
+    },
+    `gatsby-plugin-mdx`,
+    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: "UA-50697157-1",
