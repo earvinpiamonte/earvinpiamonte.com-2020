@@ -13,7 +13,7 @@ const Portfolio = () => {
   return (
     <>
       <SEO title={`Portfolio`} />
-      <header className="bg-black mb-8">
+      <header className="bg-gray-900 mb-8">
         <div className="container mx-auto">
           <div className="grid grid-cols-12 gap-4">
             <div className="col-span-8 col-start-3">
@@ -58,7 +58,7 @@ const Portfolio = () => {
       <div className="container mx-auto">
         <div className="grid grid-cols-12 gap-4">
           <div className="col-span-8 col-start-3 px-6">
-            <h1 className="text-4xl">Portfolio</h1>
+            <h1 className="text-4xl text-gray-900">Portfolio</h1>
           </div>
         </div>
       </div>

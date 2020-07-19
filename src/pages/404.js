@@ -19,7 +19,7 @@ const PageNotFound = () => {
           height: 270,
         }}
       />
-      <div className="flex items-center bg-black h-full">
+      <div className="flex items-center bg-gray-900 h-full">
         <div className="flex-1 text-center">
           <div className="flex justify-center mb-4">
             <img

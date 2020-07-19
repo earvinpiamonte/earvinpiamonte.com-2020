@@ -17,7 +17,7 @@ const Home = () => {
           height: 640,
         }}
       />
-      <section className="bg-black h-full">
+      <section className="bg-gray-900 h-full">
         <div className="container mx-auto px-4 h-full">
           <div className="grid grid-cols-12 gap-4 content-center h-full">
             <div className="col-span-8 col-start-3">
@@ -61,7 +61,7 @@ const Home = () => {
                   >
                     code
                   </OutboundLink>{" "}
-                  and Jennie Kim {"<3"}
+                  and Jennie Kim <span className="text-pink-500">{"<3"}</span>
                 </p>
               </div>
               <div className="mb-4">
@@ -69,7 +69,7 @@ const Home = () => {
                   href="https://drive.google.com/open?id=1fyKTOnutzM3Ke5pFpzto0L1FQYeXeVBp"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-gray-100 text-black hover:bg-gray-500 font-bold py-2 px-4 rounded"
+                  className="bg-gray-100 text-gray-900 hover:bg-gray-500 font-bold py-2 px-4 rounded"
                 >
                   View Resume
                 </OutboundLink>
