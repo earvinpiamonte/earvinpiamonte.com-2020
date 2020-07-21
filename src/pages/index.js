@@ -63,7 +63,10 @@ const Home = () => {
                   >
                     code
                   </OutboundLink>{" "}
-                  and Jennie Kim <span className="text-pink-500">{"<3"}</span>
+                  and Jennie Kim{" "}
+                  <span title="gongjunim" className="text-pink-500">
+                    {"<3"}
+                  </span>
                 </p>
               </div>
               <div className="mb-4">
