@@ -55,7 +55,10 @@ const Portfolio = ({ data }) => {
               </div>
             </div>
             <div className="lg:col-span-7 col-span-12">
-              <h2 className="mb-1 uppercase text-gray-900 font-bold">
+              <h2
+                className="mb-1 uppercase text-gray-900 font-bold"
+                data-slug={slug}
+              >
                 {title}
               </h2>
               <p className="mb-3 text-gray-600">
