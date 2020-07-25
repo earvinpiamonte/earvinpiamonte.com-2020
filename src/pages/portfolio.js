@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql, Link } from "gatsby"
+import { graphql } from "gatsby"
 
 import { OutboundLink } from "gatsby-plugin-google-analytics"
 import { MDXRenderer } from "gatsby-plugin-mdx"
