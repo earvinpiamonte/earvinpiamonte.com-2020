@@ -22,3 +22,8 @@
   from = "/8"
   to = "https://open.spotify.com/playlist/30U4f65ZLAAj5JknciZAaK?si=hHV8UWckR76NLgNfH75MMw"
   force = true
+
+[[redirects]]
+  from = "/nxt-2-u"
+  to = "https://www.youtube.com/watch?v=9IVO5Dsz1KI"
+  force = true
