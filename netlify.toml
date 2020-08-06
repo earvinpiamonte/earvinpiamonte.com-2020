@@ -4,26 +4,6 @@
   force = true
 
 [[redirects]]
-  from = "/np"
-  to = "https://open.spotify.com/track/2DqhE7xzpGNsKYbptqblJg?si=AAq7uig7TVaaQwnX7R2nTw"
-  force = true
-
-[[redirects]]
-  from = "/jennie"
-  to = "https://www.youtube.com/watch?v=b9THtRNlVCk"
-  force = true
-
-[[redirects]]
-  from = "/yow"
-  to = "https://www.youtube.com/watch?v=g8eGiiwUD9w"
-  force = true
-
-[[redirects]]
-  from = "/8"
-  to = "https://open.spotify.com/playlist/30U4f65ZLAAj5JknciZAaK?si=hHV8UWckR76NLgNfH75MMw"
-  force = true
-
-[[redirects]]
   from = "/nxt-2-u"
   to = "https://www.youtube.com/watch?v=9IVO5Dsz1KI"
   force = true
