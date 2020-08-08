@@ -51,9 +51,9 @@ const Home = () => {
                   >
                     Bentacos
                   </OutboundLink>{" "}
-                  in San Juan City, Philippines .
+                  in San Juan City, Philippines.
                 </p>
-                <p className="text-gray-200 mb-2">
+                <p className="text-gray-200">
                   I love writing{" "}
                   <OutboundLink
                     href="https://github.com/earvinpiamonte"
@@ -67,18 +67,6 @@ const Home = () => {
                   <span title="공주님" className="text-white">
                     {"<3"}
                   </span>
-                </p>
-                <p className="text-gray-200">
-                  You can also find me on Twitter{" "}
-                  <OutboundLink
-                    href="https://twitter.com/earvinpiamonte"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="underline font-bold text-blue-700"
-                  >
-                    @earvinpiamonte
-                  </OutboundLink>
-                  .
                 </p>
               </div>
               <div className="mb-4">
