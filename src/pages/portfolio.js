@@ -42,7 +42,7 @@ const Portfolio = ({ data }) => {
       const body = node.body
 
       return (
-        <article className="mb-8 border rounded-lg p-4" key={node.id}>
+        <article className="mb-8 border rounded-lg shadow-md p-4" key={node.id}>
           <div className="grid grid-cols-12 gap-4">
             <div className="lg:col-span-5 col-span-12">
               <div>
