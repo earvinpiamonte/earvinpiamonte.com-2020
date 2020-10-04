@@ -34,7 +34,7 @@ const Header = () => {
                   </Link>
                   <Link
                     to="/daylight"
-                    className="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-6"
+                    className="hidden mt-4 lg:hidden lg:mt-0 text-gray-300 hover:text-white mr-6"
                     activeClassName="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-4"
                   >
                     Daylight
