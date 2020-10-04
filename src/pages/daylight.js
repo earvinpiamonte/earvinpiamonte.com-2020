@@ -5,6 +5,7 @@ import { OutboundLink } from "gatsby-plugin-google-analytics"
 import SEO from "../components/seo"
 import Header from "../components/header"
 
+import socialPreview from "../images/daylight-social-preview.png"
 import daylight1 from "../images/daylight-ss-light-1.png"
 import daylight2 from "../images/daylight-ss-light-2.png"
 import daylight3 from "../images/daylight-ss-dark-1.png"
@@ -15,6 +16,11 @@ const Daylight = () => {
     <>
       <SEO
         title={`daylight - Write down notes directly on the new tab page of your Google Chrome browser.`}
+        image={{
+          src: socialPreview,
+          width: 1280,
+          height: 640,
+        }}
       />
       <Header />
       <main className="container mx-auto">
