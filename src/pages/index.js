@@ -74,10 +74,20 @@ const Home = () => {
                   href="https://drive.google.com/open?id=1fyKTOnutzM3Ke5pFpzto0L1FQYeXeVBp"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-gray-100 text-gray-900 hover:bg-gray-500 font-bold py-2 px-4 rounded"
+                  className="bg-gray-100 text-gray-900 hover:bg-gray-500 font-bold py-2 px-4 rounded mr-4"
                 >
                   View Resume
                 </OutboundLink>
+                <Link
+                  to="/daylight"
+                  className="underline font-bold text-blue-700"
+                >
+                  Check out{" "}
+                  <span className="hidden lg:inline">
+                    recently launched &mdash;
+                  </span>{" "}
+                  daylight
+                </Link>
               </div>
             </div>
           </div>
