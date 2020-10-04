@@ -21,16 +21,26 @@ const Header = () => {
                 <div className="text-sm lg:flex-grow">
                   <Link
                     to="/"
-                    className="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-4"
+                    className="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-6"
                   >
                     Home
                   </Link>
                   <Link
                     to="/portfolio"
-                    className="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-4"
+                    className="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-6"
                     activeClassName="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-4"
                   >
                     Portfolio
+                  </Link>
+                  <Link
+                    to="/daylight"
+                    className="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-6"
+                    activeClassName="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-4"
+                  >
+                    Daylight
+                    <span className="ml-1 py-1 px-3 rounded-lg bg-yellow-600 text-white text-xs">
+                      NEW
+                    </span>
                   </Link>
                 </div>
                 <div>
