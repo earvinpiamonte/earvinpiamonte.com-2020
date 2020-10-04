@@ -28,7 +28,7 @@ const Daylight = () => {
           <div className="col-span-12 md:col-span-8 md:col-start-3 px-6">
             <article className="mb-8">
               <h1 className="text-4xl text-gray-900 mb-10">Daylight</h1>
-              <p className="mb-4">
+              <p className="text-xl mb-4">
                 Daylight, stylized as <strong>daylight</strong>, is a Google
                 Chrome browser{" "}
                 <abbr title="Small programs that add new features to your browser and personalize your browsing experience.">
