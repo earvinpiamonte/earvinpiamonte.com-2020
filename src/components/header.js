@@ -6,8 +6,6 @@ import { OutboundLink } from "gatsby-plugin-google-analytics"
 import "../styles/app.css"
 
 const Header = () => {
-  const pathName = typeof window !== "undefined" ? window.location.pathname : ""
-
   return (
     <header className="bg-gray-900 mb-8">
       <div className="container mx-auto">
@@ -40,11 +38,9 @@ const Header = () => {
                     activeClassName="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-4"
                   >
                     Daylight
-                    {pathName != "/daylight" && (
-                      <span className="ml-1 py-1 px-3 rounded-lg bg-yellow-500 text-white text-xs">
-                        NEW
-                      </span>
-                    )}
+                    <span className="ml-1 py-1 px-3 rounded-lg bg-yellow-500 text-white text-xs">
+                      NEW
+                    </span>
                   </Link>
                 </div>
                 <div>
