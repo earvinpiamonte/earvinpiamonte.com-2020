@@ -50,7 +50,7 @@ const Daylight = () => {
               <p>
                 Get the extension at the official{" "}
                 <OutboundLink
-                  href="https://earvinpiamonte.com"
+                  href="https://chrome.google.com/webstore/detail/daylight/acfblhlodbfnocogojghkgnpoellplll"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="underline font-bold text-blue-700"
