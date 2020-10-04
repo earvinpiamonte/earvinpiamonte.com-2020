@@ -15,7 +15,7 @@ const Daylight = () => {
   return (
     <>
       <SEO
-        title={`daylight - Write down notes directly on the new tab page of your Google Chrome browser.`}
+        title={`daylight, a Google Chrome browser extension that let's you write down notes directly on the new tab page`}
         image={{
           src: socialPreview,
           width: 1280,
@@ -27,28 +27,44 @@ const Daylight = () => {
         <div className="grid grid-cols-12 gap-4">
           <div className="col-span-12 md:col-span-8 md:col-start-3 px-6">
             <article className="mb-8">
-              <h1 className="text-4xl text-gray-900 mb-10">Daylight</h1>
-              <p className="text-xl mb-4">
-                Daylight, stylized as <strong>daylight</strong>, is a Google
-                Chrome browser{" "}
+              <h1 className="text-4xl text-gray-900 mb-10">daylight</h1>
+              <p className="text-xl mb-6">
+                <OutboundLink
+                  href="https://chrome.google.com/webstore/detail/daylight/acfblhlodbfnocogojghkgnpoellplll"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline font-bold text-blue-700"
+                >
+                  daylight
+                </OutboundLink>{" "}
+                is a Google Chrome browser{" "}
                 <abbr title="Small programs that add new features to your browser and personalize your browsing experience.">
                   extension
                 </abbr>{" "}
                 that let's you write down notes directly on the new tab page.
               </p>
               <div className="mb-4">
-                <img
-                  src={daylight1}
-                  loading="lazy"
-                  className="rounded"
-                  alt="daylight screenshot light 1,"
-                />
+                <div className="border border-gray-200 shadow-xl rounded-tl-lg rounded-tr-lg bg-gray-100">
+                  <div className="py-2 px-2 bg-gray-200 rounded-tl-md rounded-tr-md flex items-center">
+                    <div className="rounded-full h-4 w-4 bg-red-400 flex mr-3 "></div>
+                    <div className="rounded-full h-4 w-4 bg-yellow-400 flex mr-3 "></div>
+                    <div className="rounded-full h-4 w-4 bg-green-400 flex mr-3 "></div>
+                    <div className="flex-auto px-2 py-1 ml-5 mr-1 rounded-md bg-white text-xs">
+                      chrome://newtab
+                    </div>
+                  </div>
+                  <img
+                    src={daylight1}
+                    loading="lazy"
+                    alt="daylight screenshot light 1,"
+                  />
+                </div>
               </div>
             </article>
             <div className="mb-8">
-              <h2 className="text-xl text-gray-900 mb-2">Install</h2>{" "}
+              <h2 className="text-xl text-gray-900 mb-2">Add to Chrome</h2>{" "}
               <p>
-                Get the extension at the official{" "}
+                <strong>daylight</strong> is available on{" "}
                 <OutboundLink
                   href="https://chrome.google.com/webstore/detail/daylight/acfblhlodbfnocogojghkgnpoellplll"
                   target="_blank"
@@ -56,8 +72,8 @@ const Daylight = () => {
                   className="underline font-bold text-blue-700"
                 >
                   Chrome Web Store
-                </OutboundLink>{" "}
-                page.
+                </OutboundLink>
+                .
               </p>
             </div>
             <div className="mb-8">
@@ -72,8 +88,41 @@ const Daylight = () => {
                   button and send it anywhere
                 </li>
                 <li className="mb-1">Download current notes as text file</li>
-                <li className="mb-1">Dark mode? Oh You're dang right</li>
+                <li className="mb-1">Dark mode? Oh You're darn right</li>
               </ul>
+            </div>
+
+            <div className="mb-8">
+              <h2 className="text-xl text-gray-900 mb-2">Screenshots</h2>
+              <div className="grid grid-cols-12 gap-6">
+                <div className="col-span-12 md:col-span-6">
+                  <div className="rounded border border-gray-100 shadow-xl bg-gray-100">
+                    <img
+                      src={daylight2}
+                      loading="lazy"
+                      alt="daylight screenshot light 2,"
+                    />
+                  </div>
+                </div>
+                <div className="col-span-12 md:col-span-6">
+                  <div className="rounded border border-gray-100 shadow-xl bg-gray-100">
+                    <img
+                      src={daylight3}
+                      loading="lazy"
+                      alt="daylight screenshot dark 1,"
+                    />
+                  </div>
+                </div>
+                <div className="col-span-12">
+                  <div className="rounded border border-gray-100 shadow-xl bg-gray-100">
+                    <img
+                      src={daylight4}
+                      loading="lazy"
+                      alt="daylight screenshot dark 2,"
+                    />
+                  </div>
+                </div>
+              </div>
             </div>
             <div className="mb-8">
               <h2 className="text-xl text-gray-900 mb-2">Development</h2>
@@ -99,7 +148,7 @@ const Daylight = () => {
                 .
               </p>
             </div>
-            <div className="mb-8">
+            <div className="mb-16">
               <h2 className="text-xl text-gray-900 mb-2">Support</h2>
               <p>
                 This project is completely free and developed during my free
@@ -133,39 +182,6 @@ const Daylight = () => {
                   </OutboundLink>
                 </cite>
               </blockquote>
-            </div>
-            <div className="mb-8">
-              <h2 className="text-xl text-gray-900 mb-2">Screenshots</h2>
-              <div className="grid grid-cols-12 gap-4">
-                <div className="col-span-12 md:col-span-6">
-                  <div className="mb-4">
-                    <img
-                      src={daylight2}
-                      loading="lazy"
-                      className="rounded"
-                      alt="daylight screenshot light 2,"
-                    />
-                  </div>
-                </div>
-                <div className="col-span-12 md:col-span-6">
-                  <div className="mb-4">
-                    <img
-                      src={daylight3}
-                      loading="lazy"
-                      className="rounded"
-                      alt="daylight screenshot dark 1,"
-                    />
-                  </div>
-                </div>
-              </div>
-              <div className="mb-4">
-                <img
-                  src={daylight4}
-                  loading="lazy"
-                  className="rounded"
-                  alt="daylight screenshot dark 2,"
-                />
-              </div>
             </div>
 
             <div className="py-10">
