@@ -64,7 +64,7 @@ const Daylight = () => {
             <div className="mb-8">
               <h2 className="text-xl text-gray-900 mb-2">Add to Chrome</h2>{" "}
               <p>
-                <strong>daylight</strong> is available on{" "}
+                Get <strong>daylight</strong> on{" "}
                 <OutboundLink
                   href="https://chrome.google.com/webstore/detail/daylight/acfblhlodbfnocogojghkgnpoellplll"
                   target="_blank"
