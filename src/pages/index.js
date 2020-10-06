@@ -80,13 +80,13 @@ const Home = () => {
                 </OutboundLink>
                 <Link
                   to="/daylight"
-                  className="underline font-bold text-blue-700"
+                  className="underline font-bold text-yellow-500"
                 >
                   Check out{" "}
                   <span className="hidden lg:inline">
                     recently launched &mdash;
                   </span>{" "}
-                  daylight
+                  daylight !
                 </Link>
               </div>
             </div>
