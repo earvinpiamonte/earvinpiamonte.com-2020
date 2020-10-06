@@ -97,6 +97,14 @@ const Daylight = () => {
               <div className="grid grid-cols-12 gap-6">
                 <div className="col-span-12 md:col-span-6">
                   <div className="rounded border border-gray-100 shadow-xl bg-gray-100">
+                    <div className="py-2 px-2 bg-gray-200 rounded-tl-md rounded-tr-md flex items-center">
+                      <div className="rounded-full h-4 w-4 bg-red-400 flex mr-3 "></div>
+                      <div className="rounded-full h-4 w-4 bg-yellow-400 flex mr-3 "></div>
+                      <div className="rounded-full h-4 w-4 bg-green-400 flex mr-3 "></div>
+                      <div className="flex-auto px-2 py-1 ml-5 mr-1 rounded-md bg-white text-xs md:hidden lg:inline-block">
+                        chrome://newtab
+                      </div>
+                    </div>
                     <img
                       src={daylight2}
                       loading="lazy"
@@ -106,6 +114,14 @@ const Daylight = () => {
                 </div>
                 <div className="col-span-12 md:col-span-6">
                   <div className="rounded border border-gray-100 shadow-xl bg-gray-100">
+                    <div className="py-2 px-2 bg-gray-200 rounded-tl-md rounded-tr-md flex items-center">
+                      <div className="rounded-full h-4 w-4 bg-red-400 flex mr-3 "></div>
+                      <div className="rounded-full h-4 w-4 bg-yellow-400 flex mr-3 "></div>
+                      <div className="rounded-full h-4 w-4 bg-green-400 flex mr-3 "></div>
+                      <div className="flex-auto px-2 py-1 ml-5 mr-1 rounded-md bg-white text-xs md:hidden lg:inline-block">
+                        chrome://newtab
+                      </div>
+                    </div>
                     <img
                       src={daylight3}
                       loading="lazy"
@@ -115,6 +131,14 @@ const Daylight = () => {
                 </div>
                 <div className="col-span-12">
                   <div className="rounded border border-gray-100 shadow-xl bg-gray-100">
+                    <div className="py-2 px-2 bg-gray-200 rounded-tl-md rounded-tr-md flex items-center">
+                      <div className="rounded-full h-4 w-4 bg-red-400 flex mr-3 "></div>
+                      <div className="rounded-full h-4 w-4 bg-yellow-400 flex mr-3 "></div>
+                      <div className="rounded-full h-4 w-4 bg-green-400 flex mr-3 "></div>
+                      <div className="flex-auto px-2 py-1 ml-5 mr-1 rounded-md bg-white text-xs">
+                        chrome://newtab
+                      </div>
+                    </div>
                     <img
                       src={daylight4}
                       loading="lazy"
