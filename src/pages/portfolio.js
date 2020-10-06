@@ -22,6 +22,7 @@ export const pageQuery = graphql`
             type
             title
             url
+            year
             categories
             featuredImage {
               publicURL
@@ -38,11 +39,18 @@ const Portfolio = ({ data }) => {
 
   const showProjects = () => {
     return projects.map(({ node }) => {
-      const { title, slug, url, categories, featuredImage } = node.frontmatter
+      const {
+        title,
+        slug,
+        url,
+        year,
+        categories,
+        featuredImage,
+      } = node.frontmatter
       const body = node.body
 
       return (
-        <article className="mb-8 border rounded-lg shadow-md p-4" key={node.id}>
+        <article className="mb-8 border rounded-md shadow-lg p-4" key={node.id}>
           <div className="grid grid-cols-12 gap-4">
             <div className="lg:col-span-5 col-span-12">
               <div>
@@ -68,6 +76,7 @@ const Portfolio = ({ data }) => {
                     {key === categories.length - 1 ? " " : ", "}
                   </span>
                 ))}
+                &mdash; {year}
               </p>
 
               <div className="mb-3 text-gray-800">
@@ -99,6 +108,29 @@ const Portfolio = ({ data }) => {
           <div className="col-span-12 md:col-span-8 md:col-start-3 px-6">
             <h1 className="text-4xl text-gray-900 mb-10">Portfolio</h1>
             {showProjects()}
+
+            <p className="text-lg mt-16 text-gray-500">
+              <abbr title="야!">Ya!</abbr> this page is still in the works.
+              Check out my{" "}
+              <OutboundLink
+                href="https://github.com/earvinpiamonte"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-blue-700 font-bold"
+              >
+                GitHub
+              </OutboundLink>{" "}
+              and{" "}
+              <OutboundLink
+                href="https://freelancer.com/u/earvinpiamonte"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-blue-700 font-bold"
+              >
+                Freelancer.com
+              </OutboundLink>{" "}
+              profile.
+            </p>
           </div>
         </div>
       </main>
