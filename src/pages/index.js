@@ -42,7 +42,7 @@ const Home = () => {
                   .
                 </p>
                 <p className="mb-8 text-gray-200">
-                  I'm also a Senior Web Developer for{" "}
+                  I'm also working as a senior web developer for{" "}
                   <OutboundLink
                     href="https://bentacos.com/"
                     target="_blank"
@@ -51,7 +51,7 @@ const Home = () => {
                   >
                     Bentacos
                   </OutboundLink>{" "}
-                  in San Juan City, Philippines.
+                  in San Juan City, <abbr title="Philippines">PH</abbr>.
                 </p>
                 <p className="text-gray-200">
                   I love writing{" "}
@@ -74,7 +74,7 @@ const Home = () => {
                   href="https://drive.google.com/open?id=1fyKTOnutzM3Ke5pFpzto0L1FQYeXeVBp"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-gray-100 text-gray-900 hover:bg-gray-500 font-bold py-2 px-4 rounded-full mr-4"
+                  className="bg-gray-100 text-gray-900 hover:bg-gray-500 font-bold py-2 px-4 rounded-full mr-5"
                 >
                   View Resume
                 </OutboundLink>
