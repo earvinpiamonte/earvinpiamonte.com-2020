@@ -14,7 +14,8 @@ const Header = () => {
             <nav className="flex items-center justify-between flex-wrap p-6">
               <div className="flex items-center flex-shrink-0 text-white mr-12">
                 <Link to="/" className="font-semibold text-xl tracking-tight">
-                  Noel Earvin Piamonte
+                  <span className="hidden xl:inline">Noel Earvin Piamonte</span>
+                  <span className="inline xl:hidden">earvinpiamonte</span>
                 </Link>
               </div>
               <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
