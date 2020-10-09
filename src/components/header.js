@@ -38,7 +38,7 @@ const Header = () => {
                     activeClassName="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-4"
                   >
                     Daylight
-                    <span className="ml-1 py-1 px-3 rounded-lg bg-yellow-500 text-white text-xs">
+                    <span className="ml-1 py-1 px-3 rounded-full bg-yellow-500 text-white text-xs">
                       NEW
                     </span>
                   </Link>
@@ -46,7 +46,7 @@ const Header = () => {
                 <div>
                   <OutboundLink
                     href="https://www.freelancer.com/u/earvinpiamonte/"
-                    className="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-gray-900 hover:bg-white mt-4 lg:mt-0"
+                    className="inline-block text-sm px-4 py-2 leading-none border rounded-full text-white border-white hover:border-transparent hover:text-gray-900 hover:bg-white mt-4 lg:mt-0"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

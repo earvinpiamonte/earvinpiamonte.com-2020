@@ -74,7 +74,7 @@ const Home = () => {
                   href="https://drive.google.com/open?id=1fyKTOnutzM3Ke5pFpzto0L1FQYeXeVBp"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-gray-100 text-gray-900 hover:bg-gray-500 font-bold py-2 px-4 rounded mr-4"
+                  className="bg-gray-100 text-gray-900 hover:bg-gray-500 font-bold py-2 px-4 rounded-full mr-4"
                 >
                   View Resume
                 </OutboundLink>
