@@ -37,7 +37,7 @@ export const pageQuery = graphql`
 const Portfolio = ({ data }) => {
   const { edges: projects } = data.projects
 
-  const showProjects = () => {
+  const Projects = () => {
     return projects.map(({ node }) => {
       const {
         title,
@@ -47,41 +47,42 @@ const Portfolio = ({ data }) => {
         categories,
         featuredImage,
       } = node.frontmatter
+
       const body = node.body
 
       return (
-        <article className="mb-8 border rounded-md shadow-lg p-4" key={node.id}>
+        <article className="mb-8" key={node.id}>
           <div className="grid grid-cols-12 gap-4">
             <div className="lg:col-span-5 col-span-12">
-              <div>
-                <img
+              <img
                   src={featuredImage.publicURL}
                   alt="Project thumbnail,"
-                  className="rounded border"
+                  className="border border-gray-600 rounded-lg"
                   draggable={false}
                 />
-              </div>
             </div>
             <div className="lg:col-span-7 col-span-12">
               <h2
-                className="mb-1 uppercase text-gray-900 font-bold"
+                className="mb-1 uppercase font-bold"
                 data-slug={slug}
               >
                 {title}
               </h2>
-              <p className="mb-3 text-gray-600">
+              <p className="mb-3 text-gray-600 text-sm">
+                {year} {" "}
+                &mdash; {" "}
                 {categories.map((category, key) => (
                   <span key={key}>
                     {`${category}`}
                     {key === categories.length - 1 ? " " : ", "}
                   </span>
                 ))}
-                &mdash; {year}
               </p>
 
-              <div className="mb-3 text-gray-800">
+              <div className="mb-3">
                 <MDXRenderer>{body}</MDXRenderer>
               </div>
+
               <p className="mb-3">
                 <OutboundLink
                   href={url}
@@ -92,6 +93,7 @@ const Portfolio = ({ data }) => {
                   View site
                 </OutboundLink>
               </p>
+
             </div>
           </div>
         </article>
@@ -107,9 +109,25 @@ const Portfolio = ({ data }) => {
         <div className="grid grid-cols-12 gap-4">
           <div className="col-span-12 md:col-span-8 md:col-start-3 px-6">
             <h1 className="text-4xl text-gray-900 mb-10">Portfolio</h1>
-            {showProjects()}
 
-            <p className="text-lg mt-16 text-gray-500">
+            <div className="mb-8">
+              <p>
+                You'll find here are some of the previous projects I worked on as an independent developer. You may also check my {" "}
+                <OutboundLink
+                  href="https://github.com/earvinpiamonte"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-700 underline font-bold"
+                >
+                  GitHub
+                </OutboundLink>{" "}
+                profile for my open source projects.
+              </p>
+            </div>
+
+            <Projects className="mb-16" />
+
+            <p className="text-sm mt-16 text-gray-500">
               <abbr title="야!">Ya!</abbr> this page is still in the works.
               Check out my{" "}
               <OutboundLink
