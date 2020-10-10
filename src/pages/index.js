@@ -80,7 +80,7 @@ const Home = () => {
                 </OutboundLink>
                 <Link
                   to="/daylight"
-                  className="underline font-bold text-yellow-500"
+                  className="underline font-bold text-green-400"
                 >
                   Check out{" "}
                   <span className="hidden lg:inline">
