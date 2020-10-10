@@ -55,13 +55,13 @@ const Portfolio = ({ data }) => {
       const body = node.body
 
       return (
-        <article className="mb-8" key={node.id}>
+        <article className="mb-12" key={node.id}>
           <div className="grid grid-cols-12 gap-4">
             <div className="lg:col-span-5 col-span-12">
               <img
                   src={thumbnail.publicURL}
                   alt="Project thumbnail,"
-                  className="border border-gray-600 rounded-lg"
+                  className="border-2 border-blue-700 rounded-lg"
                   draggable={false}
                 />
             </div>
