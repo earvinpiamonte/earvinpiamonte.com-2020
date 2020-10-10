@@ -27,7 +27,7 @@ const Daylight = () => {
         <div className="grid grid-cols-12 gap-4">
           <div className="col-span-12 md:col-span-8 md:col-start-3 px-6">
             <article className="mb-8">
-              <h1 className="text-4xl text-gray-900 mb-10">daylight</h1>
+              <h1 className="text-4xl mb-10">daylight</h1>
               <p className="text-xl mb-6">
                 Released on <time datetime="2020-10-04">October 4th, 2020</time> &mdash; {" "}
                 <OutboundLink
