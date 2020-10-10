@@ -60,7 +60,7 @@ const Portfolio = ({ data }) => {
             <div className="lg:col-span-5 col-span-12">
               <img
                   src={thumbnail.publicURL}
-                  alt="Project thumbnail,"
+                  alt={`${title} web page screenshot,`}
                   className="border-2 border-blue-700 rounded-lg"
                   draggable={false}
                 />
