@@ -13,3 +13,23 @@ body,
   -webkit-filter: grayscale(1);
   filter: grayscale(1);
 }
+
+.responsive-embed > :first-child {
+  width: 100%;
+}
+
+.responsive-embed {
+  position: relative;
+}
+
+.responsive-embed::before {
+  content: "";
+  display: block;
+  padding-bottom: 75%;
+}
+.responsive-embed > :first-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
