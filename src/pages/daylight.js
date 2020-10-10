@@ -29,6 +29,7 @@ const Daylight = () => {
             <article className="mb-8">
               <h1 className="text-4xl text-gray-900 mb-10">daylight</h1>
               <p className="text-xl mb-6">
+                Released on <time datetime="2020-10-04">October 4th, 2020</time> &mdash; {" "}
                 <OutboundLink
                   href="https://chrome.google.com/webstore/detail/daylight/acfblhlodbfnocogojghkgnpoellplll"
                   target="_blank"
