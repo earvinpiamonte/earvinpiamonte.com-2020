@@ -39,7 +39,7 @@ const Header = () => {
                     activeClassName="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-4"
                   >
                     Daylight
-                    <span className="ml-1 py-1 px-3 rounded-full bg-yellow-500 text-white text-xs">
+                    <span className="ml-1 py-1 px-3 rounded-full bg-blue-500 text-white text-xs">
                       NEW
                     </span>
                   </Link>
