@@ -4,7 +4,6 @@ import { Link } from "gatsby"
 
 import SEO from "../components/seo"
 
-import "../styles/app.css"
 import jennieGIF from "../images/jennie-sigh.gif"
 import pageNotFoundPreview from "../images/404-preview.jpg"
 
