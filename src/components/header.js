@@ -7,7 +7,7 @@ import "../styles/app.css"
 
 const Header = () => {
   return (
-    <header className="bg-gray-900 mb-8">
+    <header className="bg-gray-900">
       <div className="container mx-auto">
         <div className="grid grid-cols-12 gap-4">
           <div className="col-span-12 md:col-span-8 md:col-start-3">
@@ -58,7 +58,20 @@ const Header = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <svg className="w-4 h-4 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                    <svg
+                      className="w-4 h-4 inline-block"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                      ></path>
+                    </svg>
                     <span className="ml-1 align-middle">Hire me</span>
                   </OutboundLink>
                 </div>
