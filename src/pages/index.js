@@ -28,7 +28,7 @@ const Home = () => {
                 <Link to="portfolio">Software Developer</Link>
               </h1>
               <div className="mb-10 text-lg tracking-wider">
-                <p className="mb-1 text-gray-200">
+                <p className="mb-1 text-gray-200 mb-8">
                   Hi there, I&apos;m an independent website and React Native app
                   developer at{" "}
                   <OutboundLink
@@ -39,10 +39,7 @@ const Home = () => {
                   >
                     Freelancer.com
                   </OutboundLink>
-                  .
-                </p>
-                <p className="mb-8 text-gray-200">
-                  I'm also working as a senior web developer for{" "}
+                  , previously, a senior web developer for{" "}
                   <OutboundLink
                     href="https://bentacos.com/"
                     target="_blank"
