@@ -68,7 +68,7 @@ const Home = () => {
               </div>
               <div className="mb-4">
                 <OutboundLink
-                  href="https://drive.google.com/open?id=1fyKTOnutzM3Ke5pFpzto0L1FQYeXeVBp"
+                  href="https://drive.google.com/file/d/1PK3yBcFr5TwKfPx78QFmJglqieTFe2Rx/view"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-gray-100 text-gray-900 hover:bg-gray-500 font-bold py-2 px-4 rounded-full mr-5"
