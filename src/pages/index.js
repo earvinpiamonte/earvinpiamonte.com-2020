@@ -20,7 +20,7 @@ const Home = () => {
           height: 640,
         }}
       />
-      <Header className="lg:fixed w-full" />
+      <Header className="fixed w-full" />
       <section className="bg-gray-900 h-full">
         <div className="container mx-auto h-full">
           <div className="grid grid-cols-12 gap-4 content-center h-full">
