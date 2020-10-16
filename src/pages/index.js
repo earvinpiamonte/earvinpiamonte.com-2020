@@ -7,6 +7,8 @@ import SEO from "../components/seo"
 
 import socialPreview from "../images/social-preview.jpg"
 
+import Header from "../components/header"
+
 const Home = () => {
   return (
     <>
@@ -18,10 +20,11 @@ const Home = () => {
           height: 640,
         }}
       />
+      <Header className="lg:fixed w-full" />
       <section className="bg-gray-900 h-full">
-        <div className="container mx-auto px-4 h-full">
+        <div className="container mx-auto h-full">
           <div className="grid grid-cols-12 gap-4 content-center h-full">
-            <div className="col-span-12 md:col-span-8 md:col-start-3">
+            <div className="col-span-12 md:col-span-8 md:col-start-3 px-6">
               <h1 className="text-3xl mb-4 text-gray-200 tracking-wider uppercase">
                 Noel Earvin Piamonte{" "}
                 <span className="line-through mx-4">&#47;</span>{" "}
@@ -65,26 +68,6 @@ const Home = () => {
                     {"<3"}
                   </span>
                 </p>
-              </div>
-              <div className="mb-4">
-                <OutboundLink
-                  href="https://drive.google.com/file/d/1PK3yBcFr5TwKfPx78QFmJglqieTFe2Rx/view"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-gray-100 text-gray-900 hover:bg-gray-500 font-bold py-2 px-4 rounded-full mr-5"
-                >
-                  View Resume
-                </OutboundLink>
-                <Link
-                  to="/daylight"
-                  className="underline font-bold text-green-400"
-                >
-                  Check out{" "}
-                  <span className="hidden lg:inline">
-                    recently launched &mdash;
-                  </span>{" "}
-                  daylight !
-                </Link>
               </div>
             </div>
           </div>
