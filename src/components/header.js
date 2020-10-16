@@ -5,17 +5,16 @@ import { OutboundLink } from "gatsby-plugin-google-analytics"
 
 import "../styles/app.css"
 
-const Header = () => {
+const Header = props => {
   return (
-    <header className="bg-gray-900">
+    <header className={`bg-gray-900 ${props.className}`}>
       <div className="container mx-auto">
         <div className="grid grid-cols-12 gap-4">
           <div className="col-span-12 md:col-span-8 md:col-start-3">
             <nav className="flex items-center justify-between flex-wrap p-6">
               <div className="flex items-center flex-shrink-0 text-white mr-12">
                 <Link to="/" className="font-semibold text-xl tracking-tight">
-                  <span className="hidden xl:inline">Noel Earvin Piamonte</span>
-                  <span className="inline xl:hidden">earvinpiamonte</span>
+                  <span>N.E.P.</span>
                 </Link>
               </div>
               <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
@@ -49,6 +48,13 @@ const Header = () => {
                     activeClassName="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-4"
                   >
                     Playlist
+                  </Link>
+                  <Link
+                    to="/resume"
+                    className="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-6"
+                    activeClassName="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-4"
+                  >
+                    Resume
                   </Link>
                 </div>
                 <div>
