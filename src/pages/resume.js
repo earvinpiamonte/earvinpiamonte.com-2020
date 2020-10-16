@@ -34,7 +34,8 @@ const Resume = () => {
                 >
                   download
                 </OutboundLink>{" "}
-                my most recent Resume. Last updated on October 2020.
+                my most recent Resume. Last updated on{" "}
+                <time datetime="2020-10-16">October 2020</time>.
               </p>
             </article>
 
