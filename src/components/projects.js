@@ -56,7 +56,7 @@ const Projects = () => {
                   <img
                     src={thumbnail.publicURL}
                     alt={`${title} web page screenshot,`}
-                    className="border border-gray-700 rounded-lg shadow-md"
+                    className="border border-gray-700 rounded-lg"
                     draggable={false}
                   />
                 </div>
