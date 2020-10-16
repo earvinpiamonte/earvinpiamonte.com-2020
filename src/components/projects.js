@@ -33,71 +33,67 @@ const ProjectsQuery = graphql`
 `
 
 const Projects = () => {
-
   return (
     <StaticQuery
       query={ProjectsQuery}
-      render={data => data.projects.edges.map(({ node }) => {
-        const {
-          title,
-          slug,
-          url,
-          year,
-          categories,
-          thumbnail
-        } = node.frontmatter
+      render={data =>
+        data.projects.edges.map(({ node }) => {
+          const {
+            title,
+            slug,
+            url,
+            year,
+            categories,
+            thumbnail,
+          } = node.frontmatter
 
-        const body = node.body
+          const body = node.body
 
-        return (
-          <article className="mb-12" key={node.id}>
-            <div className="grid grid-cols-12 gap-4">
-              <div className="lg:col-span-5 col-span-12">
-                <img
+          return (
+            <article className="mb-12" key={node.id}>
+              <div className="grid grid-cols-12 gap-4">
+                <div className="lg:col-span-5 col-span-12">
+                  <img
                     src={thumbnail.publicURL}
                     alt={`${title} web page screenshot,`}
-                    className="border-2 border-gray-700 rounded-lg"
+                    className="border border-gray-700 rounded-lg shadow-md"
                     draggable={false}
                   />
-              </div>
-              <div className="lg:col-span-7 col-span-12">
-                <h2
-                  className="mb-1 uppercase font-bold"
-                  data-slug={slug}
-                >
-                  {title}
-                </h2>
-                <p className="mb-3 text-gray-600 text-sm">
-                  {year} {" "}
-                  &mdash; {" "}
-                  {categories.map((category, key) => (
-                    <span key={key}>
-                      {`${category}`}
-                      {key === categories.length - 1 ? " " : ", "}
-                    </span>
-                  ))}
-                </p>
-
-                <div className="mb-3">
-                  <MDXRenderer>{body}</MDXRenderer>
                 </div>
+                <div className="lg:col-span-7 col-span-12">
+                  <h2 className="mb-1 uppercase font-bold" data-slug={slug}>
+                    {title}
+                  </h2>
+                  <p className="mb-3 text-gray-600 text-sm">
+                    {year} &mdash;{" "}
+                    {categories.map((category, key) => (
+                      <span key={key}>
+                        {`${category}`}
+                        {key === categories.length - 1 ? " " : ", "}
+                      </span>
+                    ))}
+                  </p>
 
-                <p className="mb-3">
-                  <OutboundLink
-                    href={url}
-                    className="text-blue-500 underline font-bold"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    View site
-                  </OutboundLink>
-                </p>
+                  <div className="mb-3">
+                    <MDXRenderer>{body}</MDXRenderer>
+                  </div>
 
+                  <p className="mb-3">
+                    <OutboundLink
+                      href={url}
+                      className="text-blue-500 underline font-bold"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      View site
+                    </OutboundLink>
+                  </p>
+                </div>
               </div>
-            </div>
-          </article>
-        )
-      })}
+            </article>
+          )
+        })
+      }
     />
   )
 }
