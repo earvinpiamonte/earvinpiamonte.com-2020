@@ -56,7 +56,7 @@ const Header = props => {
                 </div>
               </div>
               <div
-                className={`w-full lg:w-auto lg:flex-grow lg:flex lg:items-center py-4 px-6 lg:py-0 lg:px-0 bg-gray-800 lg:bg-transparent ${
+                className={`w-full lg:w-auto lg:flex-grow lg:flex lg:items-center py-4 px-6 lg:py-0 lg:px-0 bg-gray-900 shadow-lg lg:shadow-none lg:bg-transparent ${
                   dropdownMenuOpen ? "block" : "hidden"
                 }`}
               >
