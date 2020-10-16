@@ -27,8 +27,8 @@ const Home = () => {
             <div className="col-span-12 md:col-span-8 md:col-start-3 px-6">
               <h1 className="text-3xl mb-4 text-gray-200 tracking-wider uppercase">
                 Noel Earvin Piamonte{" "}
-                <span className="line-through mx-4">&#47;</span>{" "}
-                <Link to="portfolio">Software Developer</Link>
+                <span className="line-through mx-4">&#47;</span> Software
+                Developer
               </h1>
               <div className="mb-10 text-lg tracking-wider">
                 <p className="mb-1 text-gray-200 mb-8">
