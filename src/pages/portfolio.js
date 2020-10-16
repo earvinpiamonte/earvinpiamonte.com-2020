@@ -34,29 +34,6 @@ const Portfolio = () => {
             </div>
 
             <Projects />
-
-            <p className="text-sm mt-16 text-gray-500">
-              <abbr title="야!">Ya!</abbr> this page is still in the works.
-              Check out my{" "}
-              <OutboundLink
-                href="https://github.com/earvinpiamonte"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-blue-700 font-bold"
-              >
-                GitHub
-              </OutboundLink>{" "}
-              and{" "}
-              <OutboundLink
-                href="https://freelancer.com/u/earvinpiamonte"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-blue-700 font-bold"
-              >
-                Freelancer.com
-              </OutboundLink>{" "}
-              profile.
-            </p>
           </div>
         </div>
       </main>
