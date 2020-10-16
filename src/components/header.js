@@ -14,7 +14,7 @@ const Header = props => {
         <div className="grid grid-cols-12 gap-4">
           <div className="col-span-12 md:col-span-8 md:col-start-3">
             <nav className="flex items-center justify-between flex-wrap lg:p-6">
-              <div className="w-full lg:w-auto lg:mr-12 flex items-center justify-between py-2 px-6 lg:py-0 lg:px-0">
+              <div className="w-full lg:w-auto lg:mr-12 flex items-center justify-between py-4 px-6 lg:py-0 lg:px-0">
                 <div>
                   <Link
                     to="/"
@@ -56,7 +56,7 @@ const Header = props => {
                 </div>
               </div>
               <div
-                className={`w-full lg:w-auto lg:flex-grow lg:flex lg:items-center py-2 px-6 lg:py-0 lg:px-0 bg-gray-800 lg:bg-transparent ${
+                className={`w-full lg:w-auto lg:flex-grow lg:flex lg:items-center py-4 px-6 lg:py-0 lg:px-0 bg-gray-800 lg:bg-transparent ${
                   dropdownMenuOpen ? "block" : "hidden"
                 }`}
               >
