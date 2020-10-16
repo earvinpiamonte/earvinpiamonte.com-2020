@@ -78,16 +78,18 @@ const Projects = () => {
                     <MDXRenderer>{body}</MDXRenderer>
                   </div>
 
-                  <p className="mb-3">
-                    <OutboundLink
-                      href={url}
-                      className="text-blue-500 underline font-bold"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      View site
-                    </OutboundLink>
-                  </p>
+                  {url !== "" && (
+                    <p className="mb-3">
+                      <OutboundLink
+                        href={url}
+                        className="text-blue-500 underline font-bold"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        View site
+                      </OutboundLink>
+                    </p>
+                  )}
                 </div>
               </div>
             </article>
