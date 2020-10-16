@@ -18,7 +18,7 @@ const Portfolio = () => {
             <h1 className="text-4xl mb-10">Portfolio</h1>
 
             <div className="mb-8">
-              <p>
+              <p className="text-xl">
                 You'll find here are some of the previous projects I worked on
                 as an independent developer. Visit my{" "}
                 <OutboundLink
