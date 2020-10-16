@@ -42,6 +42,7 @@ const Resume = () => {
             <div className="mb-64 responsive-embed border-2 bg-gray-200 border-gray-900 rounded-lg">
               <iframe
                 src="https://drive.google.com/file/d/1PK3yBcFr5TwKfPx78QFmJglqieTFe2Rx/preview"
+                title="Resume PDF"
                 width="640"
                 height="480"
               ></iframe>
