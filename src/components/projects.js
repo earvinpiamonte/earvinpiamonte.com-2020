@@ -6,7 +6,11 @@ import { MDXRenderer } from "gatsby-plugin-mdx"
 
 const ProjectsQuery = graphql`
   {
-    projects: allMdx(filter: { frontmatter: { type: { eq: "project" } } }) {
+    projects: allMdx(
+      limit: 20
+      filter: { frontmatter: { type: { eq: "project" } } }
+      sort: { fields: [frontmatter___date, frontmatter___title], order: DESC }
+    ) {
       edges {
         node {
           id
