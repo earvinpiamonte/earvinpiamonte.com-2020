@@ -3,8 +3,6 @@ import React, { useState } from "react"
 import { Link } from "gatsby"
 import { OutboundLink } from "gatsby-plugin-google-analytics"
 
-import "../styles/app.css"
-
 const Header = props => {
   const [dropdownMenuOpen, setDropdownMenuOpen] = useState(false)
 
