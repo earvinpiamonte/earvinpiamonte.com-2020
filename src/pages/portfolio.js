@@ -6,6 +6,7 @@ import SEO from "../components/seo"
 import Header from "../components/header"
 
 import Projects from "../components/projects"
+import Footer from "../components/footer"
 
 const Portfolio = () => {
   return (
@@ -33,10 +34,13 @@ const Portfolio = () => {
               </p>
             </div>
 
-            <Projects />
+            <div className="mb-8">
+              <Projects />
+            </div>
           </div>
         </div>
       </main>
+      <Footer />
     </>
   )
 }

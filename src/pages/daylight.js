@@ -10,6 +10,7 @@ import daylight1 from "../images/daylight-ss-light-1.png"
 import daylight2 from "../images/daylight-ss-light-2.png"
 import daylight3 from "../images/daylight-ss-dark-1.png"
 import daylight4 from "../images/daylight-ss-dark-2.png"
+import Footer from "../components/footer"
 
 const Daylight = () => {
   return (
@@ -209,15 +210,10 @@ const Daylight = () => {
                 </cite>
               </blockquote>
             </div>
-
-            <div className="py-10">
-              <p className="text-gray-600">
-                &copy; {new Date().getFullYear()} Noel Earvin Piamonte
-              </p>
-            </div>
           </div>
         </div>
       </main>
+      <Footer />
     </>
   )
 }

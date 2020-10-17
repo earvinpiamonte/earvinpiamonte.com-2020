@@ -6,6 +6,7 @@ import SEO from "../components/seo"
 import Header from "../components/header"
 
 import socialPreview from "../images/social-preview.jpg"
+import Footer from "../components/footer"
 
 const Resume = () => {
   return (
@@ -50,6 +51,7 @@ const Resume = () => {
           </div>
         </div>
       </main>
+      <Footer />
     </>
   )
 }

@@ -4,7 +4,7 @@ import SEO from "../components/seo"
 import Header from "../components/header"
 
 import socialPreview from "../images/playlist-social-preview.jpg"
-
+import Footer from "../components/footer"
 
 const Playlist = () => {
   return (
@@ -24,17 +24,28 @@ const Playlist = () => {
             <article className="mb-8">
               <h1 className="text-4xl mb-10">Playlist</h1>
               <p className="text-xl">
-                Here's a lil' mix I created on Spotify. It contains beautiful music from my favorite music producers. Hope you love this beautiful music!
+                Here's a lil' mix I created on Spotify. It contains beautiful
+                music from my favorite music producers. Hope you love this
+                beautiful music!
               </p>
             </article>
 
             <div className="mb-64 responsive-embed border-2 bg-gray-200 border-gray-900 rounded-lg">
-              <iframe src="https://open.spotify.com/embed/playlist/6SICjj0WVSCCE0phlvyR89" title="Spotify playlist" width="640" height="720" class="mx-auto" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+              <iframe
+                src="https://open.spotify.com/embed/playlist/6SICjj0WVSCCE0phlvyR89"
+                title="Spotify playlist"
+                width="640"
+                height="720"
+                class="mx-auto"
+                frameborder="0"
+                allowtransparency="true"
+                allow="encrypted-media"
+              ></iframe>
             </div>
-
           </div>
         </div>
       </main>
+      <Footer />
     </>
   )
 }
