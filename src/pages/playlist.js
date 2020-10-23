@@ -24,15 +24,15 @@ const Playlist = () => {
             <article className="mb-8">
               <h1 className="text-4xl mb-10">Playlist</h1>
               <p className="text-xl">
-                Here's a lil' mix I created on Spotify. It contains beautiful
-                music from my favorite music producers. Hope you love this
-                beautiful music!
+                Mkaaay, I got tired of updating the previous playlist so here's
+                a playlist with tracks that are currently "On Repeat" on my
+                account that Spotify automatically updates :)
               </p>
             </article>
 
             <div className="mb-64 responsive-embed border-2 bg-gray-200 border-gray-900 rounded-lg">
               <iframe
-                src="https://open.spotify.com/embed/playlist/6SICjj0WVSCCE0phlvyR89"
+                src="https://open.spotify.com/embed/playlist/37i9dQZF1Epqlvz85gOHx2"
                 title="Spotify playlist"
                 width="640"
                 height="720"
