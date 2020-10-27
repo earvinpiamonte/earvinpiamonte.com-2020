@@ -86,7 +86,7 @@ const Projects = () => {
                     <p className="mb-3">
                       <OutboundLink
                         href={url}
-                        className="text-blue-500 underline font-bold"
+                        className="text-blue-700 underline font-bold"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
