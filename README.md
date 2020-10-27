@@ -2,7 +2,7 @@
 
 Welcome to the repo of my [website](https://earvinpiamonte.com/).
 
-[![ILLENIUM - Good Things Fall Apart vs. Sad Songs](https://img.youtube.com/vi/dbsg-5B-mgc/maxresdefault.jpg)](https://www.youtube.com/watch?v=dbsg-5B-mgc "ILLENIUM - Good Things Fall Apart vs. Sad Songs")
+[![ILLENIUM - Ashes to Ashes Mix 04](https://img.youtube.com/vi/dbsg-5B-mgc/maxresdefault.jpg)](https://www.youtube.com/watch?v=dbsg-5B-mgc "ILLENIUM - Ashes to Ashes Mix 04")
 
 ## Built with
 
