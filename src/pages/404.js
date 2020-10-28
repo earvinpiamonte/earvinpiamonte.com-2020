@@ -21,18 +21,12 @@ const PageNotFound = () => {
       <div className="flex items-center bg-gray-900 h-full">
         <div className="flex-1 text-center">
           <div className="flex justify-center mb-4">
-            <picture>
-              <source
-                srcset={jennieGIF}
-                className="object-contain h-50"
-                media="(prefers-reduced-motion: no-preference)"
-              />
-              <img
-                src={pageNotFoundPreview}
-                className="object-contain h-50"
-                alt="Jennie Kim my loves <3"
-              />
-            </picture>
+            <img
+              src={jennieGIF}
+              className="object-contain"
+              alt="Jennie Kim my loves <3"
+              loading="lazy"
+            />
           </div>
           <p className="text-2xl text-white mb-4">Page not found {":("}</p>
           <p className="text-gray-500">
