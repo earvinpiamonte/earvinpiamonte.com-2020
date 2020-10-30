@@ -8,6 +8,7 @@
 
 /* Write your own custom component styles here */
 
+/* Start purging... */
 html,
 body,
 #___gatsby,
@@ -38,6 +39,7 @@ body,
   height: 100%;
   border: 0;
 }
+/* Stop purging. */
 
 /* Start purging... */
 @tailwind utilities;
