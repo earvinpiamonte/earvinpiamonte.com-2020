@@ -10,6 +10,8 @@ import daylight1 from "../images/daylight-ss-light-1.png"
 import daylight2 from "../images/daylight-ss-light-2.png"
 import daylight3 from "../images/daylight-ss-dark-1.png"
 import daylight4 from "../images/daylight-ss-dark-2.png"
+import daylight5 from "../images/daylight-ss-notes-template-1.png"
+import daylight6 from "../images/daylight-ss-notes-template-2.png"
 import Footer from "../components/footer"
 
 const Daylight = () => {
@@ -95,11 +97,77 @@ const Daylight = () => {
               </ul>
             </div>
 
+            <div className="mb-8" id="notes-template">
+              <h2 className="text-xl text-gray-900 mb-2">Notes template</h2>{" "}
+              <p className="mb-2">
+                You may use these available "variables" to the{" "}
+                <em className="font-semibold">Notes template</em> of your
+                Settings.
+              </p>
+              <h3 className="text-lg mb-2">Available variables:</h3>
+              <ul class="list-disc list-inside pl-4 mb-2">
+                <li className="mb-1">
+                  <code className="bg-yellow-300 rounded">[current_date]</code>{" "}
+                  - sets the current date
+                </li>
+                <li className="mb-1">
+                  <code className="bg-yellow-300 rounded">[current_time]</code>{" "}
+                  - sets the current time
+                </li>
+              </ul>
+              <h3 className="text-lg mb-2">Example usage</h3>
+              <p className="mb-2">
+                Screenshot of Settings page for Notes template.
+              </p>
+              <div className="grid grid-cols-12 gap-6">
+                <div className="col-span-12">
+                  <div className="rounded border border-gray-100 shadow-xl bg-gray-100 mb-8">
+                    <div className="py-2 px-2 bg-gray-200 rounded-tl-md rounded-tr-md flex items-center">
+                      <div className="rounded-full h-4 w-4 bg-red-400 flex mr-3 "></div>
+                      <div className="rounded-full h-4 w-4 bg-yellow-400 flex mr-3 "></div>
+                      <div className="rounded-full h-4 w-4 bg-green-400 flex mr-3 "></div>
+                      <div className="flex-auto px-2 py-1 ml-5 mr-1 rounded-md bg-white text-xs">
+                        chrome://newtab
+                      </div>
+                    </div>
+                    <img
+                      src={daylight5}
+                      loading="lazy"
+                      alt="daylight settings screenshot for notes template,"
+                    />
+                  </div>
+                </div>
+              </div>
+              <p className="mb-2">
+                The notes template will then be displayed on the notes page as
+                below:
+              </p>
+              <div className="grid grid-cols-12 gap-6">
+                <div className="col-span-12">
+                  <div className="rounded border border-gray-100 shadow-xl bg-gray-100">
+                    <div className="py-2 px-2 bg-gray-200 rounded-tl-md rounded-tr-md flex items-center">
+                      <div className="rounded-full h-4 w-4 bg-red-400 flex mr-3 "></div>
+                      <div className="rounded-full h-4 w-4 bg-yellow-400 flex mr-3 "></div>
+                      <div className="rounded-full h-4 w-4 bg-green-400 flex mr-3 "></div>
+                      <div className="flex-auto px-2 py-1 ml-5 mr-1 rounded-md bg-white text-xs">
+                        chrome://newtab
+                      </div>
+                    </div>
+                    <img
+                      src={daylight6}
+                      loading="lazy"
+                      alt="daylight notes template on notes page,"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <div className="mb-8">
               <h2 className="text-xl text-gray-900 mb-2">Screenshots</h2>
               <div className="grid grid-cols-12 gap-6">
                 <div className="col-span-12 md:col-span-6">
-                  <div className="rounded border border-gray-100 shadow-xl bg-gray-100">
+                  <div className="rounded border border-gray-100 shadow-xl bg-gray-100 mb-8">
                     <div className="py-2 px-2 bg-gray-200 rounded-tl-md rounded-tr-md flex items-center">
                       <div className="rounded-full h-4 w-4 bg-red-400 flex mr-3 "></div>
                       <div className="rounded-full h-4 w-4 bg-yellow-400 flex mr-3 "></div>
