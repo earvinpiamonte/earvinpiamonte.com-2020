@@ -26,7 +26,7 @@ const Playlist = () => {
               <p className="text-xl">
                 Mkaaay, I got tired of updating the previous playlist so here's
                 a playlist with tracks that are currently "On Repeat" on my
-                Spotify account that automatically updates :)
+                Spotify account :P
               </p>
             </article>
 
