@@ -31,18 +31,10 @@ const Home = () => {
               </h1>
               <div className="mb-10 text-lg tracking-wider">
                 <p className="mb-1 text-gray-200 mb-8">
-                  Hi, I&apos;m an independent website and React Native app
-                  developer at{" "}
-                  <OutboundLink
-                    href="https://www.freelancer.com/u/earvinpiamonte/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="underline font-bold text-blue-700"
-                  >
-                    Freelancer.com
-                  </OutboundLink>
-                  , previously, a senior web developer for Bentacos in San Juan
-                  City, <abbr title="Philippines">PH</abbr>.
+                  Hi there. I&apos;m an independent software developer focused
+                  on web and React Native app development &mdash; Previously,
+                  senior web developer for Bentacos in San Juan City,{" "}
+                  <abbr title="Philippines">PH</abbr>.
                 </p>
                 <p className="text-gray-200">
                   I love writing{" "}
