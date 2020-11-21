@@ -21,7 +21,8 @@ const Portfolio = () => {
             <div className="mb-8">
               <p className="text-xl">
                 You'll find here are some of the previous projects I worked on
-                as an independent developer. Visit my{" "}
+                as an independent developer. I'm currently working on this page.
+                Visit my{" "}
                 <OutboundLink
                   href="https://github.com/earvinpiamonte"
                   target="_blank"
@@ -30,7 +31,7 @@ const Portfolio = () => {
                 >
                   GitHub
                 </OutboundLink>{" "}
-                profile for my open source projects.
+                profile for open source projects.
               </p>
             </div>
 
