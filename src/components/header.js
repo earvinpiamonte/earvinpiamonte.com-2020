@@ -78,9 +78,6 @@ const Header = props => {
                     activeClassName="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-4"
                   >
                     daylight
-                    <span className="ml-1 py-1 px-3 rounded-full bg-blue-500 text-white text-xs">
-                      NEW
-                    </span>
                   </Link>
                   <Link
                     to="/playlist"
