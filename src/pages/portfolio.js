@@ -19,19 +19,17 @@ const Portfolio = () => {
             <h1 className="text-4xl mb-10">Portfolio</h1>
 
             <div className="mb-8">
-              <p className="text-xl">
-                You'll find here are some of the previous projects I worked on
-                as an independent developer. I'm currently working on this page.
-                Visit my{" "}
+              <p className="text-xl mb-3">
+                Here are some of my works as an independent developer. If you
+                need a similar project and you're interested to purchase, email
+                me at{" "}
                 <OutboundLink
-                  href="https://github.com/earvinpiamonte"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="mailto:earvin.piamonte@gmail.com"
                   className="text-blue-700 underline font-bold"
                 >
-                  GitHub
-                </OutboundLink>{" "}
-                profile for open source projects.
+                  earvin.piamonte@gmail.com
+                </OutboundLink>
+                .
               </p>
             </div>
 
