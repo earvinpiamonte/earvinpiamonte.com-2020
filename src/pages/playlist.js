@@ -4,6 +4,8 @@ import SEO from "../components/seo"
 import Header from "../components/header"
 
 import socialPreview from "../images/playlist-social-preview.jpg"
+import spotify2020wrapped from "../images/Spotify2020WRAPPED.jpg"
+
 import Footer from "../components/footer"
 
 const Playlist = () => {
@@ -30,7 +32,7 @@ const Playlist = () => {
               </p>
             </article>
 
-            <div className="mb-64 responsive-embed border-2 bg-gray-200 border-gray-900 rounded-lg">
+            <div className="mb-8 responsive-embed border-2 bg-gray-200 border-gray-900 rounded-lg">
               <iframe
                 src="https://open.spotify.com/embed/playlist/37i9dQZF1Epqlvz85gOHx2"
                 title="Spotify playlist"
@@ -41,6 +43,20 @@ const Playlist = () => {
                 allowtransparency="true"
                 allow="encrypted-media"
               ></iframe>
+            </div>
+
+            <div className="mb-16">
+              <h2 className="text-xl text-gray-900 mb-2">
+                Spotify 2020 Wrapped
+              </h2>
+              <div>
+                <img
+                  src={spotify2020wrapped}
+                  className="border-2 border-gray-900 rounded-lg"
+                  loading="lazy"
+                  alt="Spotify 2020 Wrapped screenshot,"
+                />
+              </div>
             </div>
           </div>
         </div>
