@@ -1,7 +1,5 @@
 import React from "react"
 
-import { OutboundLink } from "gatsby-plugin-google-analytics"
-
 import SEO from "../components/seo"
 import Header from "../components/header"
 
