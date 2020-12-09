@@ -96,7 +96,7 @@ const Header = props => {
                 </div>
                 <div className="mb-4 lg:mb-0">
                   <OutboundLink
-                    href="https://www.freelancer.com/u/earvinpiamonte/"
+                    href="https://github.com/earvinpiamonte/"
                     className="inline-block text-sm px-4 py-2 leading-none border rounded-full text-white border-white hover:border-transparent hover:text-gray-900 hover:bg-white mt-4 lg:mt-0"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -115,7 +115,7 @@ const Header = props => {
                         d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
                       ></path>
                     </svg>
-                    <span className="ml-1 align-middle">Freelancer.com</span>
+                    <span className="ml-1 align-middle">GitHub</span>
                   </OutboundLink>
                 </div>
               </div>
