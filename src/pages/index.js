@@ -39,8 +39,8 @@ const Home = () => {
                     Infor PSSC, Inc.
                   </OutboundLink>{" "}
                   in Taguig City, <abbr title="Philippines">PH</abbr>.
-                  Previously, an Independent Software Developer focused on web
-                  and React Native app development.
+                  Previously, an independent Software Developer worked mostly
+                  with PHP and JavaScript projects.
                 </p>
                 <p className="text-gray-200">
                   Outside work, I enjoy{" "}
