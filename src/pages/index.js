@@ -25,7 +25,7 @@ const Home = () => {
           <div className="grid grid-cols-12 gap-4 content-center h-full">
             <div className="col-span-12 md:col-span-8 md:col-start-3 px-6">
               <h1 className="text-4xl mb-4 text-gray-200 tracking-wider">
-                Hello there. I'm Noel Earvin.
+                Hello. I'm Noel Earvin.
               </h1>
               <div className="mb-10 text-lg tracking-wider">
                 <p className="mb-1 text-gray-200 mb-8">
