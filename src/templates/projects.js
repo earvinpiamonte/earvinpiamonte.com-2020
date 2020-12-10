@@ -56,7 +56,6 @@ const Projects = ({ data, pageContext }) => {
                 const {
                   title,
                   slug,
-                  url,
                   year,
                   categories,
                   thumbnail,
