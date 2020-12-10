@@ -44,12 +44,6 @@ module.exports = {
         path: `${__dirname}/src/contents`,
       },
     },
-    {
-      resolve: "gatsby-plugin-page-creator",
-      options: {
-        path: `${__dirname}/src/contents`,
-      },
-    },
     `gatsby-plugin-mdx`,
     {
       resolve: `gatsby-plugin-google-analytics`,
