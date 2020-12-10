@@ -32,7 +32,7 @@ const Playlist = () => {
               </p>
             </article>
 
-            <div className="mb-8 responsive-embed border-2 bg-gray-200 border-gray-900 rounded-lg">
+            <div className="mb-8 responsive-embed border-2 bg-blue-900 border-gray-900 rounded-lg">
               <iframe
                 src="https://open.spotify.com/embed/playlist/37i9dQZF1Epqlvz85gOHx2"
                 title="Spotify playlist"

@@ -14,7 +14,7 @@ exports.createPages = ({ graphql, actions }) => {
           limit: 1000
           filter: { frontmatter: { type: { eq: "project" } } }
           sort: {
-            fields: [frontmatter___date, frontmatter___title]
+            fields: [frontmatter___year, frontmatter___title]
             order: DESC
           }
         ) {
