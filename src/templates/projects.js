@@ -146,7 +146,7 @@ export const pageQuery = graphql`
       skip: $skip
       limit: $limit
       filter: { frontmatter: { type: { eq: "project" } } }
-      sort: { fields: [frontmatter___date, frontmatter___title], order: DESC }
+      sort: { fields: [frontmatter___year, frontmatter___title], order: DESC }
     ) {
       edges {
         node {
