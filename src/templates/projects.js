@@ -76,10 +76,7 @@ const Projects = ({ data, pageContext }) => {
                         />
                       </div>
                       <div className="lg:col-span-7 col-span-12">
-                        <h2
-                          className="mb-1 uppercase font-bold"
-                          data-slug={slug}
-                        >
+                        <h2 className="mb-1 text-xl font-bold" data-slug={slug}>
                           <Link to={slug} className="text-blue-700 underline">
                             {title}
                           </Link>
@@ -97,19 +94,6 @@ const Projects = ({ data, pageContext }) => {
                         <div className="mb-3">
                           <MDXRenderer>{body}</MDXRenderer>
                         </div>
-
-                        {url !== "" && (
-                          <p className="mb-3">
-                            <OutboundLink
-                              href={url}
-                              className="text-blue-700 underline font-bold"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              View site
-                            </OutboundLink>
-                          </p>
-                        )}
                       </div>
                     </div>
                   </article>
