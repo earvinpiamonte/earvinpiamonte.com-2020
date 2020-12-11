@@ -38,8 +38,8 @@ const Playlist = () => {
                 title="Spotify playlist"
                 width="640"
                 height="720"
-                class="mx-auto"
-                frameborder="0"
+                className="mx-auto"
+                frameBorder="0"
                 allowtransparency="true"
                 allow="encrypted-media"
               ></iframe>
