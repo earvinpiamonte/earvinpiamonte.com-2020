@@ -27,7 +27,6 @@ exports.createPages = ({ graphql, actions }) => {
                 slug
               }
               frontmatter {
-                slug
                 type
                 title
                 url
