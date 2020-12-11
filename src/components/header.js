@@ -9,6 +9,10 @@ const Header = props => {
   const [dropdownMenuOpen, setDropdownMenuOpen] = useState(false)
   const [modalVisibility, setModalVisibility] = useState(false)
 
+  React.useEffect(() => {
+    document.body.style.overflowY = modalVisibility ? "hidden" : "auto"
+  }, [modalVisibility])
+
   return (
     <>
       <Modal
