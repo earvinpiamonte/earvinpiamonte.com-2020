@@ -14,7 +14,7 @@ const Modal = ({
         !modalVisibility ? "hidden" : ""
       }`}
     >
-      <div className="mx-auto max-w-lg bg-white rounded">
+      <div className="mx-auto max-w-lg bg-white rounded-lg">
         <div className="px-4 py-4 relative">
           {title && <h4 className="font-semibold">{title}</h4>}
           <div className="absolute top-0 right-0 pt-4 pr-4">
