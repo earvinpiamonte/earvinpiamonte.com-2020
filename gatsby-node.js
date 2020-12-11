@@ -23,6 +23,9 @@ exports.createPages = ({ graphql, actions }) => {
               id
               excerpt
               body
+              fields {
+                slug
+              }
               frontmatter {
                 slug
                 type
@@ -56,10 +59,10 @@ exports.createPages = ({ graphql, actions }) => {
       const next = index === 0 ? null : projects[index - 1].node
 
       createPage({
-        path: project.node.frontmatter.slug,
+        path: project.node.fields.slug,
         component: projectItem,
         context: {
-          slug: project.node.frontmatter.slug,
+          slug: project.node.fields.slug,
           previous,
           next,
         },
