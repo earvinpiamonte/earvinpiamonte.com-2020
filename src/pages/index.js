@@ -24,12 +24,15 @@ const Home = () => {
         <div className="container mx-auto h-full">
           <div className="grid grid-cols-12 gap-4 content-center h-full">
             <div className="col-span-12 md:col-span-8 md:col-start-3 px-6">
-              <h1 className="text-4xl mb-4 text-gray-200 tracking-wider">
-                Hello. I'm Noel Earvin.
+              <h1 className="mb-4 tracking-widest">
+                <span className="block text-lg text-gray-200">Hello, I'm</span>
+                <span className="text-5xl text-white font-semibold">
+                  Noel Earvin Piamonte.
+                </span>
               </h1>
-              <div className="mb-10 text-lg tracking-wider">
+              <div className="mb-10 text-lg tracking-widest">
                 <p className="mb-1 text-gray-200 mb-8">
-                  I'm a Software Engineer at{" "}
+                  I'm a software engineer at{" "}
                   <OutboundLink
                     href="https://www.infor.com"
                     target="_blank"
@@ -38,8 +41,8 @@ const Home = () => {
                   >
                     Infor PSSC, Inc.
                   </OutboundLink>{" "}
-                  in Taguig City, <abbr title="Philippines">PH</abbr>.
-                  Previously, an independent Software Developer worked mostly
+                  in Taguig City, <abbr title="Philippines">PH</abbr> &mdash;
+                  Previously, an independent software developer worked mostly
                   with PHP and JavaScript projects.
                 </p>
                 <p className="text-gray-200">
