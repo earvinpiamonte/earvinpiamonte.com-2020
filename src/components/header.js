@@ -21,10 +21,10 @@ const Header = props => {
         title={`Freelancer status update`}
         body={
           <>
-            <p className="mb-2">
+            <p className="mb-2 tracking-wide">
               I'm currently not available for freelance works. I've decided to
               focus on my full-time work and invest my free time in
-              experimenting. &mdash; @earvinpiamonte, December 2020
+              experimenting. &mdash; @earvinpiamonte, December 2020.
             </p>
           </>
         }
