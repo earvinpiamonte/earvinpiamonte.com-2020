@@ -53,15 +53,10 @@ const Projects = ({ data, pageContext }) => {
 
             <div className="mb-8">
               {projects.map(({ node }) => {
-                const {
-                  title,
-                  slug,
-                  year,
-                  categories,
-                  thumbnail,
-                } = node.frontmatter
+                const { title, year, categories, thumbnail } = node.frontmatter
 
                 const body = node.body
+                const slug = node.fields.slug
 
                 return (
                   <article className="mb-12" key={node.id}>
@@ -75,7 +70,7 @@ const Projects = ({ data, pageContext }) => {
                         />
                       </div>
                       <div className="lg:col-span-7 col-span-12">
-                        <h2 className="mb-1 text-xl font-bold" data-slug={slug}>
+                        <h2 className="mb-1 text-xl font-bold">
                           <Link to={slug} className="text-blue-700 underline">
                             {title}
                           </Link>
@@ -136,8 +131,10 @@ export const pageQuery = graphql`
           id
           excerpt
           body
-          frontmatter {
+          fields {
             slug
+          }
+          frontmatter {
             type
             title
             url
