@@ -85,13 +85,16 @@ export default Project
 export const pageQuery = graphql`
   query projectQueryBySlug($slug: String!) {
     project: mdx(
-      frontmatter: { slug: { eq: $slug }, type: { eq: "project" } }
+      frontmatter: { type: { eq: "project" } }
+      fields: { slug: { eq: $slug } }
     ) {
       id
       excerpt
       body
-      frontmatter {
+      fields {
         slug
+      }
+      frontmatter {
         type
         title
         url
