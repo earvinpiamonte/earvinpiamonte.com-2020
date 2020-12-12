@@ -20,13 +20,14 @@ const Header = props => {
         setModalVisibility={setModalVisibility}
         title={`Freelancer status update`}
         body={
-          <>
-            <p className="mb-2 tracking-wide">
+          <div className="tracking-wide">
+            <p className="mb-2">
               I'm currently not available for freelance works. I've decided to
               focus on my full-time work and invest my free time in
-              experimenting. &mdash; @earvinpiamonte, December 2020.
+              experimenting.
             </p>
-          </>
+            <p>&mdash; @earvinpiamonte, December 2020.</p>
+          </div>
         }
         footer={
           <p className="mb-2">
