@@ -2,7 +2,6 @@ import React from "react"
 
 import { graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
-import { OutboundLink } from "gatsby-plugin-google-analytics"
 
 import SEO from "../components/seo"
 import Header from "../components/header"
