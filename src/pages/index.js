@@ -30,7 +30,7 @@ const Home = () => {
                   Noel Earvin Piamonte.
                 </span>
               </h1>
-              <div className="mb-10 text-lg tracking-wide">
+              <div className="mb-10 text-xl tracking-wide">
                 <p className="mb-1 text-gray-200 mb-8">
                   I'm a software engineer at{" "}
                   <OutboundLink
