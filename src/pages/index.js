@@ -41,9 +41,11 @@ const Home = () => {
                   >
                     Infor PSSC, Inc.
                   </OutboundLink>{" "}
-                  in Taguig City, <abbr title="Philippines">PH</abbr> &mdash;
-                  Previously, an independent software developer worked mostly
-                  with PHP and JavaScript projects.
+                  in Taguig City, <abbr title="Philippines">PH</abbr>{" "}
+                  <span className="text-gray-600">
+                    &mdash; Previously, an independent software developer worked
+                    mostly with PHP and JavaScript projects.
+                  </span>
                 </p>
                 <p className="text-gray-200">
                   Outside work, I enjoy{" "}
