@@ -22,11 +22,9 @@ const Header = props => {
         body={
           <div className="tracking-wide">
             <p className="mb-2">
-              I'm currently not available for freelance works. I've decided to
-              focus on my full-time work and invest my free time in
-              experimenting.
+              I'm currently not available for freelance works but you may still
+              view my freelancer profile.
             </p>
-            <p>&mdash; @earvinpiamonte, December 2020.</p>
           </div>
         }
         footer={
