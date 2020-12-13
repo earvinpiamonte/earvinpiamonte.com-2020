@@ -2,6 +2,8 @@ import React from "react"
 
 import { Link, graphql } from "gatsby"
 
+import formatDate from "../utils/format-date"
+
 import SEO from "../components/seo"
 import Header from "../components/header"
 
@@ -38,7 +40,8 @@ const Posts = ({ data, pageContext }) => {
                           </Link>
                         </h2>
                         <p className="mb-3 text-gray-600 text-sm">
-                          <time dateTime={date}>{date}</time> &mdash;{" "}
+                          <time dateTime={date}>{formatDate(date)}</time>{" "}
+                          &mdash;{" "}
                           {categories.map((category, key) => (
                             <span key={key}>
                               {`${category}`}
