@@ -3,6 +3,8 @@ import React from "react"
 import { graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 
+import formatDate from "../utils/format-date"
+
 import SEO from "../components/seo"
 import Header from "../components/header"
 
@@ -36,7 +38,7 @@ const Post = ({ data }) => {
               )}
             </div>
             <p className="mb-3 text-gray-600 text-sm">
-              <time dateTime={date}>{date}</time> &mdash;{" "}
+              <time dateTime={date}>{formatDate(date)}</time> &mdash;{" "}
               {categories.map((category, key) => (
                 <span key={key}>
                   {`${category}`}
