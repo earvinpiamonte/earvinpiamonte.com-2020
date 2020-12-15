@@ -57,7 +57,7 @@ const Home = () => {
                   >
                     writing
                   </OutboundLink>{" "}
-                  projects for the web.
+                  for the web.
                 </p>
               </div>
             </div>
