@@ -24,7 +24,7 @@ const Resume = () => {
             <article className="mb-8">
               <h1 className="text-4xl mb-10">Resume</h1>
               <p className="text-xl">
-                I'm currently working as a Software Engineer at Infor PSSC, Inc.
+                I'm currently working as a software engineer at Infor PSSC, Inc.
                 in Bonifacio Global City, Taguig, Philippines.
               </p>
             </article>
