@@ -39,23 +39,23 @@ const Home = () => {
                     rel="noopener noreferrer"
                     className="underline font-bold text-blue-700"
                   >
-                    Infor PSSC, Inc.
+                    Infor
                   </OutboundLink>{" "}
-                  in Taguig City, <abbr title="Philippines">PH</abbr>{" "}
+                  PSSC, Inc. in Taguig City, <abbr title="Philippines">PH</abbr>{" "}
                   <span className="text-gray-600">
                     &mdash; Previously, an independent software developer worked
                     mostly with PHP and JavaScript projects.
                   </span>
                 </p>
                 <p className="text-gray-200">
-                  Outside work, I enjoy{" "}
+                  Outside work, I enjoy writing{" "}
                   <OutboundLink
                     href="https://github.com/earvinpiamonte"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="underline font-bold text-blue-700"
                   >
-                    writing
+                    code
                   </OutboundLink>{" "}
                   for the web.
                 </p>
