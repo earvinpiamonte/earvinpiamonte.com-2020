@@ -24,13 +24,13 @@ const Home = () => {
         <div className="container mx-auto h-full">
           <div className="grid grid-cols-12 gap-4 content-center h-full">
             <div className="col-span-12 md:col-span-8 md:col-start-3 px-6">
-              <h1 className="mb-4 tracking-wide">
+              <h1 className="mb-4 tracking-wider">
                 <span className="block text-lg text-gray-200">Hello, I'm</span>
                 <span className="text-5xl text-white font-semibold">
                   Noel Earvin Piamonte.
                 </span>
               </h1>
-              <div className="mb-10 text-xl tracking-wide">
+              <div className="mb-10 text-xl tracking-wider">
                 <p className="mb-1 text-gray-200 mb-8">
                   I'm a software engineer at{" "}
                   <OutboundLink
