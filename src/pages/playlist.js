@@ -25,6 +25,18 @@ const Playlist = () => {
           <div className="col-span-12 md:col-span-8 md:col-start-3 px-6">
             <article className="mb-8">
               <h1 className="text-4xl mb-10">Playlist</h1>
+              <div className="p-4 mb-8 border-l-4 text-gray-600 border-gray-900 bg-gray-100">
+                <p className="mb-2">
+                  This page is going away soon. Hope you liked beautiful music
+                  from my favorite music producers. Thank you for listening!
+                </p>
+
+                <p className="mb-2">
+                  I'm building a new page called "Books" where I can share the
+                  books that I'm reading. I still need to learn Google Books
+                  APIs sooo.
+                </p>
+              </div>
               <p className="text-xl">
                 Mkaaay, I got tired of updating the previous playlist so here's
                 a playlist with tracks that are currently "On Repeat" on my
