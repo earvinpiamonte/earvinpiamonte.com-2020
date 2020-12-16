@@ -2,7 +2,6 @@ import React from "react"
 
 import { Link, graphql } from "gatsby"
 import { OutboundLink } from "gatsby-plugin-google-analytics"
-import { MDXRenderer } from "gatsby-plugin-mdx"
 
 import SEO from "../components/seo"
 import Header from "../components/header"
@@ -53,7 +52,6 @@ const Projects = ({ data, pageContext }) => {
               {projects.map(({ node }) => {
                 const { title, year, categories, thumbnail } = node.frontmatter
 
-                const body = node.body
                 const slug = node.fields.slug
 
                 return (
