@@ -29,10 +29,8 @@ const Resume = () => {
               </p>
             </article>
 
-            <div className="mb-64 responsive-embed border-2 bg-gray-200 border-gray-900 rounded-lg">
-              <p className="text-center my-20">
-                Resume file no longer available.
-              </p>
+            <div className="mb-64 border-2 bg-gray-200 border-gray-900 rounded-lg">
+              <p className="text-center my-20">File no longer available.</p>
             </div>
           </div>
         </div>
