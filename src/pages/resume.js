@@ -30,7 +30,7 @@ const Resume = () => {
             </article>
 
             <div className="mb-64 border-2 bg-gray-200 border-gray-900 rounded-lg">
-              <p className="text-center my-20">File no longer available.</p>
+              <p className="text-center my-20">File not available.</p>
             </div>
           </div>
         </div>
