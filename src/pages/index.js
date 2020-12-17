@@ -7,6 +7,7 @@ import SEO from "../components/seo"
 import socialPreview from "../images/social-preview.jpg"
 
 import Header from "../components/header"
+import Footer from "../components/footer"
 
 const Home = () => {
   return (
@@ -64,6 +65,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <Footer className="fixed bottom-0 w-full" />
     </>
   )
 }
