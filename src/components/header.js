@@ -134,6 +134,13 @@ const Header = props => {
                       Blog
                     </Link>
                     <Link
+                      to="/playlist"
+                      className="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white lg:mr-6"
+                      activeClassName="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-4"
+                    >
+                      Playlist
+                    </Link>
+                    <Link
                       to="/resume"
                       className="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white lg:mr-6"
                       activeClassName="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-4"
