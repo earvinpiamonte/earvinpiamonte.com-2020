@@ -37,11 +37,6 @@ const Playlist = () => {
                   APIs sooo.
                 </p>
               </div>
-              <p className="text-xl">
-                Mkaaay, I got tired of updating the previous playlist so here's
-                a playlist with tracks that are currently "On Repeat" on my
-                Spotify account :P
-              </p>
             </article>
 
             <div className="mb-8 responsive-embed border-2 bg-blue-900 border-gray-900 rounded-lg">
