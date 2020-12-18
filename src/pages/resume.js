@@ -23,10 +23,6 @@ const Resume = () => {
           <div className="col-span-12 md:col-span-8 md:col-start-3 px-6">
             <article className="mb-8">
               <h1 className="text-4xl mb-10">Resume</h1>
-              <p className="text-xl">
-                I'm currently working as a software engineer at Infor PSSC, Inc.
-                in Bonifacio Global City, Taguig, Philippines.
-              </p>
             </article>
 
             <div className="mb-64 border-2 bg-gray-200 border-gray-900 rounded-lg">
