@@ -2,8 +2,8 @@ const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
 const templates = [
-  require("./src/templates-data/portfolio"),
-  require("./src/templates-data/blog"),
+  require("./src/templates-config/portfolio.config"),
+  require("./src/templates-config/blog.config"),
 ]
 
 exports.createPages = async ({ graphql, actions }) => {

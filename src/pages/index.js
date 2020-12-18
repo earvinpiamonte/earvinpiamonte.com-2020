@@ -7,12 +7,13 @@ import SEO from "../components/seo"
 import socialPreview from "../images/social-preview.jpg"
 
 import Header from "../components/header"
+import Footer from "../components/footer"
 
 const Home = () => {
   return (
     <>
       <SEO
-        title={`Software Developer`}
+        title={`Software Engineer`}
         image={{
           src: socialPreview,
           width: 1280,
@@ -24,20 +25,31 @@ const Home = () => {
         <div className="container mx-auto h-full">
           <div className="grid grid-cols-12 gap-4 content-center h-full">
             <div className="col-span-12 md:col-span-8 md:col-start-3 px-6">
-              <h1 className="text-3xl mb-4 text-gray-200 tracking-wider uppercase">
-                Noel Earvin Piamonte{" "}
-                <span className="line-through mx-4">&#47;</span> Software
-                Developer
+              <h1 className="mb-6 tracking-wider">
+                <span className="block text-lg text-gray-200">Hello, I'm</span>
+                <span className="text-5xl text-white font-semibold">
+                  Noel Earvin Piamonte.
+                </span>
               </h1>
-              <div className="mb-10 text-lg tracking-wider">
+              <div className="mb-10 text-xl tracking-wider">
                 <p className="mb-1 text-gray-200 mb-8">
-                  Hi there. I&apos;m an independent software developer focused
-                  on web and React Native app development &mdash; Previously,
-                  senior web developer for Bentacos in San Juan City,{" "}
-                  <abbr title="Philippines">PH</abbr>.
+                  I'm a software engineer at{" "}
+                  <OutboundLink
+                    href="https://www.infor.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline font-bold text-blue-700"
+                  >
+                    Infor
+                  </OutboundLink>{" "}
+                  in Taguig City, <abbr title="Philippines">PH</abbr>{" "}
+                  <span className="text-gray-500">
+                    &mdash; Previously, an independent software developer worked
+                    mostly with PHP and JavaScript projects.
+                  </span>
                 </p>
                 <p className="text-gray-200">
-                  I love writing{" "}
+                  Outside work, I enjoy writing{" "}
                   <OutboundLink
                     href="https://github.com/earvinpiamonte"
                     target="_blank"
@@ -46,16 +58,14 @@ const Home = () => {
                   >
                     code
                   </OutboundLink>{" "}
-                  and Jennie Kim{" "}
-                  <span title="공주님" className="text-white">
-                    {"<3"}
-                  </span>
+                  for the web.
                 </p>
               </div>
             </div>
           </div>
         </div>
       </section>
+      <Footer className="fixed bottom-0 w-full" />
     </>
   )
 }

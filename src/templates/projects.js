@@ -2,7 +2,6 @@ import React from "react"
 
 import { Link, graphql } from "gatsby"
 import { OutboundLink } from "gatsby-plugin-google-analytics"
-import { MDXRenderer } from "gatsby-plugin-mdx"
 
 import SEO from "../components/seo"
 import Header from "../components/header"
@@ -14,7 +13,7 @@ const Projects = ({ data, pageContext }) => {
   const { currentPage, numPages } = pageContext
   const isFirst = currentPage === 1
 
-  const baseSlug = "/portfolio"
+  const baseSlug = "portfolio"
 
   /* const isLast = currentPage === numPages
   const prevPage =
@@ -22,8 +21,6 @@ const Projects = ({ data, pageContext }) => {
       ? baseSlug
       : `${baseSlug}/` + (currentPage - 1).toString()
   const nextPage = (currentPage + 1).toString() */
-
-  console.log(pageContext)
 
   return (
     <>
@@ -55,7 +52,6 @@ const Projects = ({ data, pageContext }) => {
               {projects.map(({ node }) => {
                 const { title, year, categories, thumbnail } = node.frontmatter
 
-                const body = node.body
                 const slug = node.fields.slug
 
                 return (
@@ -84,10 +80,6 @@ const Projects = ({ data, pageContext }) => {
                             </span>
                           ))}
                         </p>
-
-                        <div className="mb-3">
-                          <MDXRenderer>{body}</MDXRenderer>
-                        </div>
                       </div>
                     </div>
                   </article>
@@ -96,12 +88,12 @@ const Projects = ({ data, pageContext }) => {
 
               {Array.from({ length: numPages }, (_, i) => (
                 <Link
-                  to={`${baseSlug}/${i === 0 ? "" : i + 1}`}
+                  to={`/${baseSlug}/${i === 0 ? "" : i + 1}`}
                   key={`pagination-number-${i + 1}`}
-                  className={`py-2 px-4 border mr-1 rounded border border-gray-700 hover:text-white hover:bg-blue-700 hover:border-blue-700 ${
+                  className={`py-2 px-4 border mr-1 rounded border border-gray-900 hover:text-white hover:bg-gray-900 hover:border-gray-900 ${
                     i + 1 === currentPage
-                      ? "bg-blue-700 border-blue-700 text-white"
-                      : "text-gray-700"
+                      ? "bg-gray-900 border-gray-900 text-white"
+                      : "text-gray-900"
                   }`}
                 >
                   {i + 1}
