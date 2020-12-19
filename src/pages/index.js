@@ -21,7 +21,7 @@ const Home = () => {
         }}
       />
       <Header className="fixed w-full" />
-      <section className="bg-gray-900 h-full">
+      <section className="bg-black h-full">
         <div className="container mx-auto h-full">
           <div className="grid grid-cols-12 gap-4 content-center h-full">
             <div className="col-span-12 md:col-span-8 md:col-start-3 px-6">

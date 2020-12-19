@@ -59,9 +59,9 @@ const Posts = ({ data, pageContext }) => {
                 <Link
                   to={`/${baseSlug}/${i === 0 ? "" : i + 1}`}
                   key={`pagination-number-${i + 1}`}
-                  className={`py-2 px-4 border mr-1 rounded border border-gray-900 hover:text-white hover:bg-gray-900 hover:border-gray-900 ${
+                  className={`py-2 px-4 border mr-1 rounded border border-gray-900 hover:text-white hover:bg-black hover:border-gray-900 ${
                     i + 1 === currentPage
-                      ? "bg-gray-900 border-gray-900 text-white"
+                      ? "bg-black border-gray-900 text-white"
                       : "text-gray-900"
                   }`}
                 >

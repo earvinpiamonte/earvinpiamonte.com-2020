@@ -30,7 +30,7 @@ const Project = ({ data }) => {
               <img
                 src={featuredImage.publicURL}
                 alt={`${title} web page screenshot,`}
-                className="border border-gray-700 rounded-lg"
+                className="border-2 border-black rounded-lg"
                 draggable={false}
               />
             </div>
@@ -50,7 +50,7 @@ const Project = ({ data }) => {
               <div className="mb-8">
                 <OutboundLink
                   href={`${url}`}
-                  className="inline-block px-4 py-1 rounded-full border border-gray-700 text-gray-700 hover:text-white hover:bg-blue-700 hover:border-blue-700"
+                  className="inline-block px-4 py-1 rounded-full border border-gray-700 text-gray-700 hover:text-white hover:bg-black hover:border-black"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

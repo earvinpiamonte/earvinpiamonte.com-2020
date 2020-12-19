@@ -54,7 +54,7 @@ const Header = props => {
           </p>
         }
       />
-      <header className={`bg-gray-900 ${props.className}`}>
+      <header className={`bg-black ${props.className}`}>
         <div className="container mx-auto">
           <div className="grid grid-cols-12 gap-4">
             <div className="col-span-12 md:col-span-8 md:col-start-3">
@@ -101,7 +101,7 @@ const Header = props => {
                   </div>
                 </div>
                 <div
-                  className={`w-full lg:w-auto lg:flex-grow lg:flex lg:items-center py-4 px-6 lg:py-0 lg:px-0 bg-gray-900 border-b-4 lg:border-b-0 shadow-lg lg:shadow-none lg:bg-transparent ${
+                  className={`w-full lg:w-auto lg:flex-grow lg:flex lg:items-center py-4 px-6 lg:py-0 lg:px-0 bg-black border-b-4 lg:border-b-0 shadow-lg lg:shadow-none lg:bg-transparent ${
                     dropdownMenuOpen ? "block" : "hidden"
                   }`}
                 >

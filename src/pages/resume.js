@@ -25,7 +25,7 @@ const Resume = () => {
               <h1 className="text-4xl mb-10">Resume</h1>
             </article>
 
-            <div className="mb-64 border-2 bg-gray-200 border-gray-900 rounded-lg">
+            <div className="mb-64 border-2 bg-gray-200 border-black rounded-lg">
               <p className="text-center my-10">File not available.</p>
             </div>
           </div>
