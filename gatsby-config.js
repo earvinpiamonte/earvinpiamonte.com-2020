@@ -17,6 +17,7 @@ module.exports = {
       `react native`,
       `freelancer philippines`,
     ],
+    pinterestCode: `0606198322429bb313d26c8d612aea23`,
   },
   plugins: [
     `gatsby-plugin-sitemap`,

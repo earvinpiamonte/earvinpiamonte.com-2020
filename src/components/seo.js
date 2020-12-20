@@ -21,6 +21,7 @@ const SEO = ({
             author
             keywords
             siteUrl
+            pinterestCode
           }
         }
       }
@@ -62,7 +63,7 @@ const SEO = ({
         },
         {
           property: `og:title`,
-          content: title,
+          content: `${site.siteMetadata.title} | ${title}`,
         },
         {
           property: `og:description`,
@@ -78,11 +79,15 @@ const SEO = ({
         },
         {
           name: `twitter:title`,
-          content: title,
+          content: `${site.siteMetadata.title} | ${title}`,
         },
         {
           name: `twitter:description`,
           content: metaDescription,
+        },
+        {
+          name: "p:domain_verify",
+          content: site.siteMetadata.pinterestCode,
         },
       ]
         .concat(
