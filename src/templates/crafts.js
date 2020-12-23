@@ -94,7 +94,7 @@ const Crafts = ({ data, pageContext }) => {
                               target="_blank"
                               rel="noopener noreferrer"
                             >
-                              Get
+                              Download
                             </OutboundLink>
                           )}
                         </div>
