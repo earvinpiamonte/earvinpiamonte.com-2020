@@ -26,7 +26,7 @@ const Home = () => {
           <div className="grid grid-cols-12 gap-4 content-center h-full">
             <div className="col-span-12 md:col-span-8 md:col-start-3 px-6">
               <h1 className="mb-6 tracking-wider">
-                <span className="block text-lg text-gray-200">Hello, I'm</span>
+                <span className="block text-lg text-gray-200">Hello, I'm</span>{" "}
                 <span className="text-5xl text-white font-semibold">
                   Noel Earvin Piamonte.
                 </span>
