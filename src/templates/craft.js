@@ -4,8 +4,6 @@ import { graphql } from "gatsby"
 import { OutboundLink } from "gatsby-plugin-google-analytics"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 
-import formatDate from "../utils/format-date"
-
 import SEO from "../components/seo"
 import Header from "../components/header"
 
@@ -28,7 +26,15 @@ const Craft = ({ data }) => {
 
   return (
     <>
-      <SEO title={`${title}`} description={`${excerpt}`} />
+      <SEO
+        title={`${title}`}
+        description={`${excerpt}`}
+        image={{
+          src: featuredImage,
+          width: 1280,
+          height: 640,
+        }}
+      />
       <Header />
       <main className="container mx-auto pt-8">
         <div className="grid grid-cols-12 gap-4">
