@@ -11,7 +11,6 @@ import Footer from "../components/footer"
 const Crafts = ({ data, pageContext }) => {
   const crafts = data.crafts.edges
   const { currentPage, numPages } = pageContext
-  const isFirst = currentPage === 1
 
   const baseSlug = "crafts"
 
