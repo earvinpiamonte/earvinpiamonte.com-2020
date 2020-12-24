@@ -1,6 +1,7 @@
 import React from "react"
 
 import { graphql } from "gatsby"
+import { OutboundLink } from "gatsby-plugin-google-analytics"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 
 import formatDate from "../utils/format-date"
@@ -54,6 +55,38 @@ const Craft = ({ data }) => {
             </p>
             <div className="mb-8">
               <MDXRenderer>{body}</MDXRenderer>
+            </div>
+            <div className="mb-8">
+              {githubURL && (
+                <OutboundLink
+                  href={`${githubURL}`}
+                  className="inline-block mr-2 px-4 py-1 rounded-full border border-gray-700 text-gray-700 hover:text-white hover:bg-black hover:border-black"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub
+                </OutboundLink>
+              )}
+              {demoURL && (
+                <OutboundLink
+                  href={`${demoURL}`}
+                  className="inline-block mr-2 px-4 py-1 rounded-full border border-gray-700 text-gray-700 hover:text-white hover:bg-black hover:border-black"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Demo
+                </OutboundLink>
+              )}
+              {downloadURL && (
+                <OutboundLink
+                  href={`${downloadURL}`}
+                  className="inline-block mr-2 px-4 py-1 rounded-full border border-gray-700 text-gray-700 hover:text-white hover:bg-black hover:border-black"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Download
+                </OutboundLink>
+              )}
             </div>
           </div>
         </div>
