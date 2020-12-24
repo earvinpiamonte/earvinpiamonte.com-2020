@@ -120,6 +120,13 @@ const Header = props => {
                       Portfolio
                     </Link>
                     <Link
+                      to="/crafts"
+                      className="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white lg:mr-6"
+                      activeClassName="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-4"
+                    >
+                      Crafts
+                    </Link>
+                    <Link
                       to="/daylight"
                       className="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white lg:mr-6"
                       activeClassName="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-4"
@@ -132,20 +139,6 @@ const Header = props => {
                       activeClassName="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-4"
                     >
                       Blog
-                    </Link>
-                    <Link
-                      to="/playlist"
-                      className="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white lg:mr-6"
-                      activeClassName="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-4"
-                    >
-                      Playlist
-                    </Link>
-                    <Link
-                      to="/resume"
-                      className="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white lg:mr-6"
-                      activeClassName="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-4"
-                    >
-                      Resume
                     </Link>
                   </div>
                   <div className="mb-4 lg:mb-0">
