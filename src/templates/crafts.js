@@ -28,8 +28,7 @@ const Crafts = ({ data, pageContext }) => {
             {isFirst && (
               <div className="mb-8">
                 <p className="text-xl mb-3">
-                  Feel free to browse my works that I built with artistry during
-                  my free time.
+                  Feel free to browse my works that I built during my free time.
                 </p>
               </div>
             )}
