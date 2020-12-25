@@ -12,6 +12,8 @@ const Crafts = ({ data, pageContext }) => {
   const crafts = data.crafts.edges
   const { currentPage, numPages } = pageContext
 
+  const isFirst = currentPage === 1
+
   const baseSlug = "crafts"
 
   return (
@@ -22,6 +24,15 @@ const Crafts = ({ data, pageContext }) => {
         <div className="grid grid-cols-12 gap-4">
           <div className="col-span-12 md:col-span-8 md:col-start-3 px-6">
             <h1 className="text-4xl mb-10">Crafts</h1>
+
+            {isFirst && (
+              <div className="mb-8">
+                <p className="text-xl mb-3">
+                  Feel free to browse my works that I built with artistry during
+                  my free time.
+                </p>
+              </div>
+            )}
 
             <div className="mb-8">
               {crafts.map(({ node }) => {
