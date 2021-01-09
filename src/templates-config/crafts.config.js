@@ -27,6 +27,7 @@ module.exports = {
                 githubURL
                 demoURL
                 downloadURL
+                viewURL
                 categories
                 featuredImage {
                   publicURL

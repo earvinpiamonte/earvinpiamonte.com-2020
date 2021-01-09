@@ -39,6 +39,7 @@ const Crafts = ({ data, pageContext }) => {
                   title,
                   githubURL,
                   demoURL,
+                  viewURL,
                   downloadURL,
                   categories,
                   thumbnail,
@@ -94,6 +95,16 @@ const Crafts = ({ data, pageContext }) => {
                               rel="noopener noreferrer"
                             >
                               Demo
+                            </OutboundLink>
+                          )}
+                          {viewURL && (
+                            <OutboundLink
+                              href={`${viewURL}`}
+                              className="inline-block mr-2 px-4 py-1 rounded-full border border-gray-700 text-gray-700 hover:text-white hover:bg-black hover:border-black"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              View
                             </OutboundLink>
                           )}
                           {downloadURL && (
@@ -159,6 +170,7 @@ export const pageQuery = graphql`
             githubURL
             demoURL
             downloadURL
+            viewURL
             categories
             featuredImage {
               publicURL

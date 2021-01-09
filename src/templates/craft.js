@@ -16,6 +16,7 @@ const Craft = ({ data }) => {
     title,
     githubURL,
     demoURL,
+    viewURL,
     downloadURL,
     categories,
     featuredImage,
@@ -83,6 +84,16 @@ const Craft = ({ data }) => {
                   Demo
                 </OutboundLink>
               )}
+              {viewURL && (
+                <OutboundLink
+                  href={`${viewURL}`}
+                  className="inline-block mr-2 px-4 py-1 rounded-full border border-gray-700 text-gray-700 hover:text-white hover:bg-black hover:border-black"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View
+                </OutboundLink>
+              )}
               {downloadURL && (
                 <OutboundLink
                   href={`${downloadURL}`}
@@ -122,6 +133,7 @@ export const pageQuery = graphql`
         githubURL
         demoURL
         downloadURL
+        viewURL
         categories
         featuredImage {
           publicURL
