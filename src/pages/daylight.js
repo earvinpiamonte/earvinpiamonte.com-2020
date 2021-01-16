@@ -7,8 +7,6 @@ import Header from "../components/header"
 
 import socialPreview from "../images/daylight-social-preview.png"
 import daylight1 from "../images/daylight-ss-light-1.png"
-import daylight2 from "../images/daylight-ss-light-2.png"
-import daylight3 from "../images/daylight-ss-dark-1.png"
 import daylight4 from "../images/daylight-ss-dark-2.png"
 import daylight5 from "../images/daylight-ss-notes-template-1.png"
 import daylight6 from "../images/daylight-ss-notes-template-2.png"
