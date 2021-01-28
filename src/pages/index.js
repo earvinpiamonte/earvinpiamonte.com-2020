@@ -33,7 +33,8 @@ const Home = () => {
               </h1>
               <div className="mb-10 text-xl tracking-wider">
                 <p className="mb-1 text-gray-200 mb-8">
-                  I'm a software engineer at{" "}
+                  I'm a developer and crafter based in the Philippines. I work
+                  at{" "}
                   <OutboundLink
                     href="https://www.infor.com"
                     target="_blank"
@@ -42,7 +43,7 @@ const Home = () => {
                   >
                     Infor
                   </OutboundLink>{" "}
-                  in Taguig City, <abbr title="Philippines">PH</abbr>{" "}
+                  as a Software Engineer.
                   <span className="text-gray-500">
                     &mdash; Previously, an independent software developer worked
                     mostly with PHP and JavaScript projects.
@@ -58,7 +59,7 @@ const Home = () => {
                   >
                     code
                   </OutboundLink>{" "}
-                  for the web.
+                  for the web with React.
                 </p>
               </div>
             </div>
