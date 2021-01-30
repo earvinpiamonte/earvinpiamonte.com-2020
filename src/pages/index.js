@@ -59,7 +59,7 @@ const Home = () => {
                   >
                     code
                   </OutboundLink>{" "}
-                  for the web with React.
+                  for the web.
                 </p>
               </div>
             </div>
