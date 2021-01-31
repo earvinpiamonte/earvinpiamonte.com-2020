@@ -3,6 +3,10 @@ import React from "react"
 import { graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 
+import Prism from "prismjs"
+import "prism-themes/themes/prism-nord.css"
+import "prismjs/components/prism-json"
+
 import formatDate from "../utils/format-date"
 
 import SEO from "../components/seo"
@@ -17,6 +21,10 @@ const Post = ({ data }) => {
 
   const body = post.body
   const excerpt = post.excerpt
+
+  React.useEffect(() => {
+    Prism.highlightAll()
+  }, [])
 
   return (
     <>
@@ -46,7 +54,7 @@ const Post = ({ data }) => {
                 </span>
               ))}
             </p>
-            <div className="mb-8">
+            <div className="app-mdx mb-8">
               <MDXRenderer>{body}</MDXRenderer>
             </div>
           </div>

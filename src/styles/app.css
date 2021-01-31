@@ -30,6 +30,10 @@ body,
   padding-top: 130%;
 }
 
+.responsive-embed-md::before {
+  padding-top: 60%;
+}
+
 .responsive-embed > :first-child {
   position: absolute;
   top: 0;
@@ -39,6 +43,31 @@ body,
   height: 100%;
   border: 0;
 }
+
+.app-mdx pre {
+  @apply rounded-md;
+  @apply mb-4;
+}
+
+.app-mdx code {
+  @apply text-red-400;
+}
+
+.app-mdx p {
+  @apply mb-2;
+}
+
+.app-mdx h2 {
+  @apply mb-2;
+  @apply font-semibold;
+}
+
+.app-mdx a {
+  @apply text-blue-700;
+  @apply font-semibold;
+  @apply underline;
+}
+
 /* Stop purging. */
 
 /* Start purging... */
