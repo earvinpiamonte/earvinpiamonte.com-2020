@@ -58,8 +58,8 @@ body,
 }
 
 .app-mdx h2 {
+  @apply text-2xl;
   @apply mb-2;
-  @apply font-semibold;
 }
 
 .app-mdx a {

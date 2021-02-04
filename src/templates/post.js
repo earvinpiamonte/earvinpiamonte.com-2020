@@ -4,7 +4,7 @@ import { graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 
 import Prism from "prismjs"
-import "prism-themes/themes/prism-nord.css"
+import "prism-themes/themes/prism-coldark-dark.css"
 import "prismjs/components/prism-json"
 
 import formatDate from "../utils/format-date"
