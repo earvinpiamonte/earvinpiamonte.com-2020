@@ -6,6 +6,7 @@ import { MDXRenderer } from "gatsby-plugin-mdx"
 import Prism from "prismjs"
 import "prism-themes/themes/prism-coldark-dark.css"
 import "prismjs/components/prism-json"
+import "prismjs/components/prism-jsx"
 
 import formatDate from "../utils/format-date"
 
