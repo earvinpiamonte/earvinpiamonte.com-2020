@@ -65,6 +65,11 @@ body,
   @apply mb-2;
 }
 
+.app-mdx h3 {
+  @apply text-xl;
+  @apply mb-2;
+}
+
 .app-mdx a {
   @apply text-blue-700;
   @apply underline;
@@ -84,6 +89,11 @@ body,
 
 .app-mdx ul {
   @apply list-disc;
+  @apply list-inside;
+}
+
+.app-mdx ol {
+  @apply list-decimal;
   @apply list-inside;
 }
 
