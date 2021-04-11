@@ -53,8 +53,6 @@ Found an issue or have some recommendations? Send me a good ol' email at [earvin
 
 ## Connect
 
-Twitter - https://twitter.com/earvinpiamonte
-
 Website & Resume - https://www.earvinpiamonte.com
 
 GitHub - https://github.com/earvinpiamonte
