@@ -7,6 +7,7 @@ import Prism from "prismjs"
 import "prism-themes/themes/prism-coldark-dark.css"
 import "prismjs/components/prism-json"
 import "prismjs/components/prism-jsx"
+import "prismjs/components/prism-swift"
 
 import formatDate from "../utils/format-date"
 
