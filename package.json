@@ -30,7 +30,7 @@
     "gatsby-source-filesystem": "^2.3.20",
     "gatsby-transformer-remark": "^2.8.25",
     "gatsby-transformer-sharp": "^2.5.11",
-    "postcss": "^7.0.35",
+    "postcss": "^8.2.10",
     "prism-themes": "^1.5.0",
     "prismjs": "^1.23.0",
     "react": "^16.12.0",
