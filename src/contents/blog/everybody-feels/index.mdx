@@ -13,18 +13,20 @@ categories:
 In creating view controllers, I usually add a custom static property I name `identifier`. This holds the string representation of the view controller that I usually reference in initializing data from a storyboard.
 
 Here's an example usage on a method to display a scene from a storyboard on a view controller:
+
 ```swift
 func navigateToSettingsScreen() {
-    let settingsViewController = self.storyboard?.instantiateViewController(identifier: SettingsViewController.identifier) as? SettingsViewController
+  let settingsViewController = self.storyboard?.instantiateViewController(identifier: SettingsViewController.identifier) as? SettingsViewController
 
-    // Assign other stuff here like delegates
-    settingsViewController?.delegate = self
+  // Assign other stuff here like delegates
+  settingsViewController?.delegate = self
 
-    present(settingsViewController!, animated: true, completion: nil)
+  present(settingsViewController!, animated: true, completion: nil)
 }
 ```
 
 Example `SettingsViewController.swift` that contains the `identifier` property:
+
 ```swift
 //
 //  SettingsViewController.swift
